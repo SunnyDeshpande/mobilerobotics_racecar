@@ -1,0 +1,21 @@
+[1.105s] Invoking command in '/home/nvidia/ros2_ws/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/zed_topic_benchmark_interfaces -- -j6 -l6
+[2.337s] Invoked command in '/home/nvidia/ros2_ws/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/zed_topic_benchmark_interfaces -- -j6 -l6
+[2.720s] Invoking command in '/home/nvidia/ros2_ws/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/zed_topic_benchmark_interfaces
+[6.229s] -- Install configuration: "Release"
+[6.230s] -- Execute custom install script
+[6.230s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_topic_benchmark_interfaces
+[6.233s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_topic_benchmark_interfaces
+[6.233s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.sh
+[6.234s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.dsv
+[6.234s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.sh
+[6.235s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.dsv
+[6.235s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.bash
+[6.236s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.sh
+[6.238s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.zsh
+[6.239s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.dsv
+[6.240s] -- Symlinking: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.dsv
+[6.244s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/packages/zed_topic_benchmark_interfaces
+[6.245s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig.cmake
+[6.245s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig-version.cmake
+[6.247s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.xml
+[6.431s] Invoked command in '/home/nvidia/ros2_ws/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/zed_topic_benchmark_interfaces

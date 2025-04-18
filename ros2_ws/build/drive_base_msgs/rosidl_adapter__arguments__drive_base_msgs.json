@@ -1,0 +1,9 @@
+{
+  "package_name": "drive_base_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/ros2_ws/src/uros/drive_base/drive_base_msgs:msg/CommandHeader.msg",
+    "/home/nvidia/ros2_ws/src/uros/drive_base/drive_base_msgs:msg/BaseInfo.msg",
+    "/home/nvidia/ros2_ws/src/uros/drive_base/drive_base_msgs:msg/CommandStatus.msg",
+    "/home/nvidia/ros2_ws/src/uros/drive_base/drive_base_msgs:msg/TRVCommand.msg"
+  ]
+}

@@ -1,0 +1,679 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/ros2_ws/build/zed_interfaces
+[35m[1mScanning dependencies of target zed_interfaces__cpp[0m
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_generator_c[0m
+[  0%] Built target zed_interfaces__cpp
+[  1%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/object__functions.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/objects_stamped__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_di__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_df__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint3_d__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_di__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_df__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box3_d__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton2_d__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton3_d__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/depth_info_stamped__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/plane_stamped__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/pos_track_status__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/heartbeat__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/set_pose__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/start_svo_rec__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/set_roi__functions.c.o[0m
+[  9%] [32m[1mLinking C shared library libzed_interfaces__rosidl_generator_c.so[0m
+[  9%] Built target zed_interfaces__rosidl_generator_c
+[  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/objects_stamped__type_support.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint2_di__type_support.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint2_df__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint3_d__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box2_di__type_support.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box2_df__type_support.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/skeleton2_d__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/skeleton3_d__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/depth_info_stamped__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/plane_stamped__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/pos_track_status__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/heartbeat__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/start_svo_rec__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/set_roi__type_support.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 18%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 19%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_microxrcedds_c[0m
+[ 19%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/object__type_support_c.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/objects_stamped__type_support_c.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/keypoint2_di__type_support_c.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/keypoint2_df__type_support_c.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/keypoint3_d__type_support_c.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/bounding_box2_di__type_support_c.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/bounding_box2_df__type_support_c.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/bounding_box3_d__type_support_c.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/skeleton2_d__type_support_c.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/skeleton3_d__type_support_c.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/depth_info_stamped__type_support_c.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/plane_stamped__type_support_c.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/pos_track_status__type_support_c.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/msg/detail/microxrcedds/heartbeat__type_support_c.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/srv/detail/microxrcedds/set_pose__type_support_c.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/srv/detail/microxrcedds/start_svo_rec__type_support_c.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/zed_interfaces/srv/detail/microxrcedds/set_roi__type_support_c.c.o[0m
+[ 28%] [32m[1mLinking C shared library libzed_interfaces__rosidl_typesupport_microxrcedds_c.so[0m
+[ 28%] Built target zed_interfaces__rosidl_typesupport_microxrcedds_c
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_introspection_c[0m
+[ 29%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/object__type_support.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/objects_stamped__type_support.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint2_di__type_support.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint2_df__type_support.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint3_d__type_support.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box2_di__type_support.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box2_df__type_support.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box3_d__type_support.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/skeleton2_d__type_support.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/skeleton3_d__type_support.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/depth_info_stamped__type_support.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/plane_stamped__type_support.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/pos_track_status__type_support.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/heartbeat__type_support.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/set_pose__type_support.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/start_svo_rec__type_support.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/set_roi__type_support.c.o[0m
+[ 38%] [32m[1mLinking C shared library libzed_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 38%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[ 39%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/object__type_support_c.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/objects_stamped__type_support_c.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint2_di__type_support_c.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint2_df__type_support_c.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint3_d__type_support_c.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box2_di__type_support_c.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box2_df__type_support_c.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/skeleton2_d__type_support_c.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/skeleton3_d__type_support_c.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/depth_info_stamped__type_support_c.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/plane_stamped__type_support_c.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/pos_track_status__type_support_c.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/heartbeat__type_support_c.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/set_pose__type_support_c.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/start_svo_rec__type_support_c.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/set_roi__type_support_c.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 48%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c
+[ 49%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_c[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/object__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint2_di__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint2_df__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint3_d__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box2_di__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box2_df__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box3_d__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/skeleton2_d__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/skeleton3_d__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/depth_info_stamped__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/plane_stamped__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/pos_track_status__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/heartbeat__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/set_pose__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/start_svo_rec__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/set_roi__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/objects_stamped__type_support.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_c.so[0m
+[ 58%] Built target zed_interfaces__rosidl_typesupport_c
+[ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/object__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint2_df__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint3_d__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box2_di__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box2_df__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/skeleton2_d__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/skeleton3_d__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/depth_info_stamped__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/plane_stamped__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/pos_track_status__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/heartbeat__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/set_pose__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/start_svo_rec__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/set_roi__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint2_di__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/objects_stamped__type_support.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[ 67%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_cpp[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/object__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/objects_stamped__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint3_d__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint2_df__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box2_di__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/skeleton2_d__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/skeleton3_d__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/depth_info_stamped__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/plane_stamped__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/pos_track_status__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/heartbeat__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/set_pose__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/start_svo_rec__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box3_d__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/set_roi__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box2_df__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint2_di__type_support.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_cpp.so[0m
+[ 76%] Built target zed_interfaces__rosidl_typesupport_cpp
+[ 76%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_microxrcedds_cpp[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/object__type_support_cpp.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/bounding_box2_di__type_support_cpp.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/bounding_box2_df__type_support_cpp.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/bounding_box3_d__type_support_cpp.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/skeleton2_d__type_support_cpp.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/skeleton3_d__type_support_cpp.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/depth_info_stamped__type_support_cpp.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/plane_stamped__type_support_cpp.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/pos_track_status__type_support_cpp.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/heartbeat__type_support_cpp.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/srv/detail/microxrcedds/set_pose__type_support_cpp.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/srv/detail/microxrcedds/start_svo_rec__type_support_cpp.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/srv/detail/microxrcedds/set_roi__type_support_cpp.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/keypoint3_d__type_support_cpp.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/keypoint2_df__type_support_cpp.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/keypoint2_di__type_support_cpp.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/zed_interfaces/msg/detail/microxrcedds/objects_stamped__type_support_cpp.cpp.o[0m
+[ 86%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_microxrcedds_cpp.so[0m
+[ 86%] Built target zed_interfaces__rosidl_typesupport_microxrcedds_cpp
+[35m[1mScanning dependencies of target zed_interfaces[0m
+[ 86%] Built target zed_interfaces
+[35m[1mScanning dependencies of target zed_interfaces__py[0m
+[ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 87%] Built target zed_interfaces__py
+[35m[1mScanning dependencies of target zed_interfaces__python[0m
+[ 87%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_object_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box2_di_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box2_df_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box3_d_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_skeleton2_d_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_skeleton3_d_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_depth_info_stamped_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_plane_stamped_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_pos_track_status_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_heartbeat_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/srv/_set_pose_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/srv/_start_svo_rec_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/srv/_set_roi_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint3_d_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint2_df_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint2_di_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_objects_stamped_s.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/libzed_interfaces__python.so[0m
+[ 96%] Built target zed_interfaces__python
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[ 96%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 97%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_c__pyext[0m
+[ 97%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 98%] Built target zed_interfaces__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_microxrcedds_c__pyext[0m
+[ 98%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[ 99%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 99%] Built target zed_interfaces__rosidl_typesupport_microxrcedds_c__pyext
+[35m[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 99%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[100%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_interfaces
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_df.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_di.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box3_d.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/depth_info_stamped.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/heartbeat.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_df.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_di.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint3_d.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/object.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/objects_stamped.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/plane_stamped.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/pos_track_status.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton2_d.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton3_d.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__functions.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__struct.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__type_support.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_pose.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_roi.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/start_svo_rec.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.sh
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.dsv
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_microxrcedds_c.so
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_df.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_di.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box3_d.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/depth_info_stamped.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/heartbeat.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_df.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_di.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint3_d.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/object.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/objects_stamped.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/plane_stamped.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/pos_track_status.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton2_d.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton3_d.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__builder.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__struct.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__traits.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__type_support.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_pose.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_roi.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/start_svo_rec.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/bounding_box2_df__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/bounding_box2_di__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/bounding_box3_d__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/depth_info_stamped__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/heartbeat__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/keypoint2_df__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/keypoint2_di__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/keypoint3_d__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/object__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/objects_stamped__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/plane_stamped__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/pos_track_status__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/skeleton2_d__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/microxrcedds/skeleton3_d__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/microxrcedds/set_pose__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/microxrcedds/set_roi__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/microxrcedds/start_svo_rec__type_support_cpp.cpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/__init__.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/__init__.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_bounding_box2_df.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_bounding_box2_di.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_bounding_box3_d.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_depth_info_stamped.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_heartbeat.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_keypoint2_df.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_keypoint2_di.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_keypoint3_d.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_object.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_objects_stamped.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_plane_stamped.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_pos_track_status.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_skeleton2_d.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_skeleton3_d.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/__init__.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/_set_pose.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/_set_roi.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/_start_svo_rec.py
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__python.so
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.idl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.srv
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Request.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Response.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.srv
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Request.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Response.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.srv
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Request.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Response.msg
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed.stl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2.stl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2i.stl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedm.stl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedx.stl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedxm.stl
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_interfaces
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_interfaces
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.sh
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.dsv
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.bash
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.sh
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.zsh
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.dsv
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.dsv
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/packages/zed_interfaces
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig.cmake
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig-version.cmake
+-- Symlinking: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.xml
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/nvidia/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so" to ""
+Compiling '/home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/__init__.py'...
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_generator_cExport-release.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/nvidia/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport-release.cmake

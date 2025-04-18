@@ -1,0 +1,1 @@
+/home/nvidia/ros2_ws/build/zed_multi_camera/ament_cmake_environment_hooks/local_setup.sh

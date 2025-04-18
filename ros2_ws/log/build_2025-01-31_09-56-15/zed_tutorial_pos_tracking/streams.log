@@ -1,0 +1,23 @@
+[0.623s] Invoking command in '/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking -- -j6 -l6
+[1.828s] [100%] Built target zed_tutorial_pos_tracking
+[1.962s] Invoked command in '/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking -- -j6 -l6
+[2.413s] Invoking command in '/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking
+[2.557s] -- Install configuration: "Release"
+[2.563s] -- Execute custom install script
+[2.573s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking
+[2.576s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_pos_tracking
+[2.579s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_pos_tracking
+[2.582s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.sh
+[2.585s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.dsv
+[2.591s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.sh
+[2.592s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.dsv
+[2.595s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.bash
+[2.598s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.sh
+[2.601s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.zsh
+[2.603s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.dsv
+[2.606s] -- Symlinking: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[2.715s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/packages/zed_tutorial_pos_tracking
+[2.821s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig.cmake
+[2.824s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig-version.cmake
+[2.834s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.xml
+[2.926s] Invoked command in '/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking

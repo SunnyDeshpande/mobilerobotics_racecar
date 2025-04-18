@@ -1,0 +1,160 @@
+[0.517s] Invoking command in '/home/nvidia/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/drive_base_msgs -- -j6 -l6
+[1.695s] [  1%] Built target drive_base_msgs__cpp
+[1.730s] [ 10%] Built target drive_base_msgs__rosidl_generator_c
+[2.290s] [ 18%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[2.404s] [ 27%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[2.405s] [ 36%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[2.406s] [ 44%] Built target drive_base_msgs__rosidl_typesupport_microxrcedds_cpp
+[2.406s] [ 53%] Built target drive_base_msgs__rosidl_typesupport_microxrcedds_c
+[2.436s] [ 62%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[2.933s] [ 71%] Built target drive_base_msgs__rosidl_typesupport_c
+[2.935s] [ 79%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[3.457s] [ 79%] Built target drive_base_msgs
+[3.780s] [ 81%] Built target drive_base_msgs__py
+[4.155s] [ 88%] Built target drive_base_msgs__python
+[4.620s] [ 91%] Built target drive_base_msgs__rosidl_typesupport_c__pyext
+[4.640s] [ 94%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.656s] [ 97%] Built target drive_base_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[4.702s] [100%] Built target drive_base_msgs__rosidl_typesupport_introspection_c__pyext
+[4.903s] Invoked command in '/home/nvidia/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/drive_base_msgs -- -j6 -l6
+[7.934s] Invoking command in '/home/nvidia/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/drive_base_msgs
+[8.062s] -- Install configuration: "Release"
+[8.070s] -- Execute custom install script
+[8.080s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[8.090s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.h
+[8.093s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.h
+[8.096s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.h
+[8.099s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__functions.h
+[8.102s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.h
+[8.104s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.h
+[8.107s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__functions.h
+[8.108s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.h
+[8.111s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.h
+[8.113s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__functions.h
+[8.118s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.h
+[8.120s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.h
+[8.123s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__functions.h
+[8.125s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.h
+[8.134s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.h
+[8.143s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.153s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.h
+[8.158s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[8.162s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[8.165s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_microxrcedds_c.h
+[8.168s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_microxrcedds_c.h
+[8.171s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_microxrcedds_c.h
+[8.172s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_microxrcedds_c.h
+[8.179s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[8.180s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_microxrcedds_c.so
+[8.195s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[8.197s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[8.198s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[8.199s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[8.199s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.202s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[8.213s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[8.215s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[8.219s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[8.222s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[8.224s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.229s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.236s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[8.242s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[8.248s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[8.250s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[8.253s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.260s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.hpp
+[8.262s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.hpp
+[8.264s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.hpp
+[8.266s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__builder.hpp
+[8.269s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.hpp
+[8.272s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__traits.hpp
+[8.274s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.hpp
+[8.276s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__builder.hpp
+[8.278s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.hpp
+[8.282s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__traits.hpp
+[8.284s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.hpp
+[8.286s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__builder.hpp
+[8.288s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.hpp
+[8.290s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__traits.hpp
+[8.293s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.hpp
+[8.295s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[8.297s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[8.299s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[8.301s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.hpp
+[8.305s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.306s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.hpp
+[8.312s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[8.316s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_microxrcedds_cpp.hpp
+[8.317s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[8.320s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/microxrcedds/base_info__type_support_cpp.cpp
+[8.322s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/microxrcedds/command_header__type_support_cpp.cpp
+[8.325s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/microxrcedds/command_status__type_support_cpp.cpp
+[8.349s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/microxrcedds/trv_command__type_support_cpp.cpp
+[8.349s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_microxrcedds_cpp.hpp
+[8.366s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[8.370s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[8.376s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[8.380s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[8.384s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[8.387s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[8.392s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[8.395s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[8.400s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/__init__.py
+[8.409s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/__init__.py
+[8.412s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_base_info.py
+[8.416s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_header.py
+[8.420s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_status.py
+[8.423s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_trv_command.py
+[8.429s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-aarch64-linux-gnu.so
+[8.447s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[8.451s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[8.456s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[8.460s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__python.so
+[8.464s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[8.466s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[8.470s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[8.473s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[8.476s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[8.478s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[8.481s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[8.486s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[8.487s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[8.490s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[8.493s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[8.495s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[8.497s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[8.499s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[8.502s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[8.505s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[8.508s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[8.510s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[8.512s] -- Symlinking: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[8.618s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[8.764s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[8.767s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.770s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.772s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.775s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.778s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.780s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.783s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[8.785s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[8.788s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[8.791s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[8.795s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[8.799s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[8.803s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[8.807s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[9.527s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport.cmake
+[9.528s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport-release.cmake
+[9.530s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.531s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[9.533s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[9.533s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-release.cmake
+[9.535s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cppExport.cmake
+[9.537s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.538s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[9.542s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[9.544s] -- Up-to-date: /home/nvidia/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-release.cmake
+[10.489s] Invoked command in '/home/nvidia/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/drive_base_msgs

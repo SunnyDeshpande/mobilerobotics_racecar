@@ -1,0 +1,11 @@
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/install/strip.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/install/local.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/edit_cache.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/test.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/zed_tutorial_video.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/zed_tutorial_video_files.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/install.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/list_install_components.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/rebuild_cache.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/zed_tutorial_video_uninstall.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_video/CMakeFiles/uninstall.dir

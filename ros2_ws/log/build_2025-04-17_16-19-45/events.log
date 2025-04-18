@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.001529] (-) JobUnselected: {'identifier': 'car_control'}
+[0.001867] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.002007] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.002119] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.002229] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.002372] (-) JobUnselected: {'identifier': 'estimation_and_vision_assignment'}
+[0.002484] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.002589] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.003537] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.003755] (-) JobUnselected: {'identifier': 'obj_det_visualizer'}
+[0.005394] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.005565] (-) JobUnselected: {'identifier': 'rviz_plugin_zed_od'}
+[0.005683] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.005798] (-) JobUnselected: {'identifier': 'zed_aruco_localization'}
+[0.005905] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.006010] (-) JobUnselected: {'identifier': 'zed_depth_to_laserscan'}
+[0.006144] (-) JobUnselected: {'identifier': 'zed_display_rviz2'}
+[0.006279] (-) JobUnselected: {'identifier': 'zed_interfaces'}
+[0.006386] (-) JobUnselected: {'identifier': 'zed_multi_camera'}
+[0.006539] (-) JobUnselected: {'identifier': 'zed_rgb_convert'}
+[0.006647] (-) JobUnselected: {'identifier': 'zed_robot_integration'}
+[0.006749] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.006872] (-) JobUnselected: {'identifier': 'zed_topic_benchmark'}
+[0.006981] (-) JobUnselected: {'identifier': 'zed_topic_benchmark_component'}
+[0.007110] (-) JobUnselected: {'identifier': 'zed_topic_benchmark_interfaces'}
+[0.007235] (-) JobUnselected: {'identifier': 'zed_tutorial_depth'}
+[0.007360] (-) JobUnselected: {'identifier': 'zed_tutorial_pos_tracking'}
+[0.007465] (-) JobUnselected: {'identifier': 'zed_tutorial_video'}
+[0.007567] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.007685] (lane_follower) JobQueued: {'identifier': 'lane_follower', 'dependencies': OrderedDict()}
+[0.007809] (lane_follower) JobStarted: {'identifier': 'lane_follower'}
+[0.091074] (-) TimerEvent: {}
+[0.195509] (-) TimerEvent: {}
+[0.296755] (-) TimerEvent: {}
+[0.397811] (-) TimerEvent: {}
+[0.498779] (-) TimerEvent: {}
+[0.599838] (-) TimerEvent: {}
+[0.703583] (-) TimerEvent: {}
+[0.807865] (-) TimerEvent: {}
+[0.925251] (-) TimerEvent: {}
+[1.026394] (-) TimerEvent: {}
+[1.129396] (-) TimerEvent: {}
+[1.230369] (-) TimerEvent: {}
+[1.333778] (-) TimerEvent: {}
+[1.437963] (-) TimerEvent: {}
+[1.542446] (-) TimerEvent: {}
+[1.646361] (-) TimerEvent: {}
+[1.748380] (-) TimerEvent: {}
+[1.850993] (-) TimerEvent: {}
+[1.954527] (-) TimerEvent: {}
+[2.057174] (-) TimerEvent: {}
+[2.161383] (-) TimerEvent: {}
+[2.262879] (-) TimerEvent: {}
+[2.364485] (-) TimerEvent: {}
+[2.467961] (-) TimerEvent: {}
+[2.569081] (-) TimerEvent: {}
+[2.671349] (-) TimerEvent: {}
+[2.775668] (-) TimerEvent: {}
+[2.876521] (-) TimerEvent: {}
+[2.977851] (-) TimerEvent: {}
+[3.078862] (-) TimerEvent: {}
+[3.238029] (-) TimerEvent: {}
+[3.341122] (-) TimerEvent: {}
+[3.442065] (-) TimerEvent: {}
+[3.543944] (-) TimerEvent: {}
+[3.645699] (-) TimerEvent: {}
+[3.746848] (-) TimerEvent: {}
+[3.847781] (-) TimerEvent: {}
+[3.948773] (-) TimerEvent: {}
+[4.049860] (-) TimerEvent: {}
+[4.150880] (-) TimerEvent: {}
+[4.252528] (-) TimerEvent: {}
+[4.356483] (-) TimerEvent: {}
+[4.458203] (-) TimerEvent: {}
+[4.606199] (-) TimerEvent: {}
+[4.718700] (-) TimerEvent: {}
+[4.824500] (-) TimerEvent: {}
+[4.926006] (-) TimerEvent: {}
+[5.029483] (-) TimerEvent: {}
+[5.130804] (-) TimerEvent: {}
+[5.233681] (-) TimerEvent: {}
+[5.336454] (-) TimerEvent: {}
+[5.439121] (-) TimerEvent: {}
+[5.540581] (-) TimerEvent: {}
+[5.642424] (-) TimerEvent: {}
+[5.743394] (-) TimerEvent: {}
+[5.844405] (-) TimerEvent: {}
+[5.946421] (-) TimerEvent: {}
+[6.047529] (-) TimerEvent: {}
+[6.148530] (-) TimerEvent: {}
+[6.249987] (-) TimerEvent: {}
+[6.351009] (-) TimerEvent: {}
+[6.452338] (-) TimerEvent: {}
+[6.555096] (-) TimerEvent: {}
+[6.657411] (-) TimerEvent: {}
+[6.759667] (-) TimerEvent: {}
+[6.863024] (-) TimerEvent: {}
+[6.966167] (-) TimerEvent: {}
+[7.068218] (-) TimerEvent: {}
+[7.171717] (-) TimerEvent: {}
+[7.272778] (-) TimerEvent: {}
+[7.375556] (-) TimerEvent: {}
+[7.476530] (-) TimerEvent: {}
+[7.578926] (-) TimerEvent: {}
+[7.680024] (-) TimerEvent: {}
+[7.781387] (-) TimerEvent: {}
+[7.882429] (-) TimerEvent: {}
+[7.983552] (-) TimerEvent: {}
+[8.085515] (-) TimerEvent: {}
+[8.187595] (-) TimerEvent: {}
+[8.335930] (-) TimerEvent: {}
+[8.437246] (-) TimerEvent: {}
+[8.543765] (-) TimerEvent: {}
+[8.649651] (-) TimerEvent: {}
+[8.751046] (-) TimerEvent: {}
+[8.852178] (-) TimerEvent: {}
+[8.955419] (-) TimerEvent: {}
+[9.056740] (-) TimerEvent: {}
+[9.158746] (-) TimerEvent: {}
+[9.261760] (-) TimerEvent: {}
+[9.363109] (-) TimerEvent: {}
+[9.464738] (-) TimerEvent: {}
+[9.566251] (-) TimerEvent: {}
+[9.667954] (-) TimerEvent: {}
+[9.773975] (-) TimerEvent: {}
+[9.875194] (-) TimerEvent: {}
+[9.976877] (-) TimerEvent: {}
+[10.078597] (-) TimerEvent: {}
+[10.180121] (-) TimerEvent: {}
+[10.284118] (-) TimerEvent: {}
+[10.387744] (-) TimerEvent: {}
+[10.489397] (-) TimerEvent: {}
+[10.598561] (-) TimerEvent: {}
+[10.705189] (-) TimerEvent: {}
+[10.810276] (-) TimerEvent: {}
+[10.916352] (-) TimerEvent: {}
+[11.019497] (-) TimerEvent: {}
+[11.120800] (-) TimerEvent: {}
+[11.225521] (-) TimerEvent: {}
+[11.328730] (-) TimerEvent: {}
+[11.432760] (-) TimerEvent: {}
+[11.533972] (-) TimerEvent: {}
+[11.634929] (-) TimerEvent: {}
+[11.736040] (-) TimerEvent: {}
+[11.837373] (-) TimerEvent: {}
+[11.938759] (-) TimerEvent: {}
+[12.040007] (-) TimerEvent: {}
+[12.141271] (-) TimerEvent: {}
+[12.243872] (-) TimerEvent: {}
+[12.346210] (-) TimerEvent: {}
+[12.448668] (-) TimerEvent: {}
+[12.549974] (-) TimerEvent: {}
+[12.653236] (-) TimerEvent: {}
+[12.755014] (-) TimerEvent: {}
+[12.856680] (-) TimerEvent: {}
+[12.958766] (-) TimerEvent: {}
+[13.059923] (-) TimerEvent: {}
+[13.161149] (-) TimerEvent: {}
+[13.262504] (-) TimerEvent: {}
+[13.364973] (-) TimerEvent: {}
+[13.468375] (-) TimerEvent: {}
+[13.575740] (-) TimerEvent: {}
+[13.677803] (-) TimerEvent: {}
+[13.779489] (-) TimerEvent: {}
+[13.882590] (-) TimerEvent: {}
+[13.986799] (-) TimerEvent: {}
+[14.098753] (-) TimerEvent: {}
+[14.201689] (-) TimerEvent: {}
+[14.302731] (-) TimerEvent: {}
+[14.405618] (-) TimerEvent: {}
+[14.506879] (-) TimerEvent: {}
+[14.608134] (-) TimerEvent: {}
+[14.710567] (-) TimerEvent: {}
+[14.818603] (-) TimerEvent: {}
+[14.920127] (-) TimerEvent: {}
+[15.021877] (-) TimerEvent: {}
+[15.122860] (-) TimerEvent: {}
+[15.223801] (-) TimerEvent: {}
+[15.325317] (-) TimerEvent: {}
+[15.428724] (-) TimerEvent: {}
+[15.530378] (-) TimerEvent: {}
+[15.631523] (-) TimerEvent: {}
+[15.733696] (-) TimerEvent: {}
+[15.837153] (-) TimerEvent: {}
+[15.940619] (-) TimerEvent: {}
+[16.043845] (-) TimerEvent: {}
+[16.150780] (-) TimerEvent: {}
+[16.252812] (-) TimerEvent: {}
+[16.356188] (-) TimerEvent: {}
+[16.459889] (-) TimerEvent: {}
+[16.561724] (-) TimerEvent: {}
+[16.678950] (-) TimerEvent: {}
+[16.780154] (-) TimerEvent: {}
+[16.881841] (-) TimerEvent: {}
+[16.988707] (-) TimerEvent: {}
+[17.094817] (-) TimerEvent: {}
+[17.196214] (-) TimerEvent: {}
+[17.297860] (-) TimerEvent: {}
+[17.399251] (-) TimerEvent: {}
+[17.500288] (-) TimerEvent: {}
+[17.601394] (-) TimerEvent: {}
+[17.703520] (-) TimerEvent: {}
+[17.805220] (-) TimerEvent: {}
+[17.907230] (-) TimerEvent: {}
+[18.009359] (-) TimerEvent: {}
+[18.147369] (-) TimerEvent: {}
+[18.253119] (-) TimerEvent: {}
+[18.354245] (-) TimerEvent: {}
+[18.433204] (lane_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/lane_follower', 'build', '--build-base', '/home/nvidia/ros2_ws/build/lane_follower/build', 'install', '--record', '/home/nvidia/ros2_ws/build/lane_follower/install.log', '--install-scripts', '$base/lib/lane_follower', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/ros2_ws/src/racetrack_challenge/lane_follower', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'LC_TIME': 'id_ID.UTF-8', 'SSH_AGENT_PID': '3003', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nvidia/rosbag_ws/install/rosbag2_compression_zstd/lib:/home/nvidia/rosbag_ws/install/zstd_vendor/lib:/home/nvidia/rosbag_ws/install/rosbag2_transport/lib:/home/nvidia/rosbag_ws/install/rosbag2_converter_default_plugins/lib:/home/nvidia/rosbag_ws/install/rosbag2_compression/lib:/home/nvidia/rosbag_ws/install/rosbag2_cpp/lib:/home/nvidia/rosbag_ws/install/rosbag2_storage_default_plugins/lib:/home/nvidia/rosbag_ws/install/rosbag2_storage/lib:/home/nvidia/microros_ws/install/visualization_msgs/lib:/home/nvidia/microros_ws/install/test_msgs/lib:/home/nvidia/microros_ws/install/example_interfaces/lib:/home/nvidia/microros_ws/install/action_msgs/lib:/home/nvidia/microros_ws/install/unique_identifier_msgs/lib:/home/nvidia/microros_ws/install/trajectory_msgs/lib:/home/nvidia/microros_ws/install/stereo_msgs/lib:/home/nvidia/microros_ws/install/std_srvs/lib:/home/nvidia/microros_ws/install/shape_msgs/lib:/home/nvidia/microros_ws/install/sensor_msgs/lib:/home/nvidia/microros_ws/install/nav_msgs/lib:/home/nvidia/microros_ws/install/diagnostic_msgs/lib:/home/nvidia/microros_ws/install/geometry_msgs/lib:/home/nvidia/microros_ws/install/actionlib_msgs/lib:/home/nvidia/microros_ws/install/std_msgs/lib:/home/nvidia/microros_ws/install/statistics_msgs/lib:/home/nvidia/microros_ws/install/rmw_microxrcedds/lib:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/nvidia/microros_ws/install/rosgraph_msgs/lib:/home/nvidia/microros_ws/install/rclc_parameter/lib:/home/nvidia/microros_ws/install/rclc/lib:/home/nvidia/microros_ws/install/composition_interfaces/lib:/home/nvidia/microros_ws/install/rcl_interfaces/lib:/home/nvidia/microros_ws/install/microxrcedds_client/lib:/home/nvidia/microros_ws/install/microcdr/lib:/home/nvidia/microros_ws/install/micro_ros_msgs/lib:/home/nvidia/microros_ws/install/lifecycle_msgs/lib:/home/nvidia/microros_ws/install/complex_msgs/lib:/home/nvidia/microros_ws/install/builtin_interfaces/lib:/home/nvidia/ros2_ws/install/zed_rgb_convert/lib:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/rviz_plugin_zed_od/lib:/home/nvidia/ros2_ws/install/zed_interfaces/lib:/home/nvidia/ros2_ws/install/micro_ros_agent/lib:/home/nvidia/ros2_ws/install/micro_ros_msgs/lib:/home/nvidia/ros2_ws/install/image_geometry/lib:/home/nvidia/ros2_ws/install/drive_base_msgs/lib:/home/nvidia/ros2_ws/install/costmap_converter/lib:/home/nvidia/ros2_ws/install/cv_bridge/lib:/home/nvidia/ros2_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '2321', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4587', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nvidia/ros2_ws/install:/home/nvidia/rosbag_ws/install:/home/nvidia/microros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nvidia', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1562421014551', 'JOURNAL_STREAM': '8:56837', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/nvidia/ros2_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/home/nvidia/cmake-install/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin', 'SESSION_MANAGER': 'local/nvidia-desktop:@/tmp/.ICE-unix/3085,unix/nvidia-desktop:/tmp/.ICE-unix/3085', 'INVOCATION_ID': '0448039884fa4e218d25883668aef682', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nvidia/rosbag_ws/install/rosbag2:/home/nvidia/rosbag_ws/install/rosbag2_compression_zstd:/home/nvidia/rosbag_ws/install/zstd_vendor:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/rosbag_ws/install/rosbag2_transport:/home/nvidia/rosbag_ws/install/rosbag2_py:/home/nvidia/rosbag_ws/install/rosbag2_performance_benchmarking:/home/nvidia/rosbag_ws/install/rosbag2_converter_default_plugins:/home/nvidia/rosbag_ws/install/rosbag2_compression:/home/nvidia/rosbag_ws/install/bag_recorder_nodes:/home/nvidia/rosbag_ws/install/rosbag2_cpp:/home/nvidia/rosbag_ws/install/rosbag2_storage_default_plugins:/home/nvidia/rosbag_ws/install/sqlite3_vendor:/home/nvidia/rosbag_ws/install/shared_queues_vendor:/home/nvidia/rosbag_ws/install/rosbag2_tests:/home/nvidia/rosbag_ws/install/rosbag2_test_common:/home/nvidia/rosbag_ws/install/rosbag2_storage:/home/nvidia/microros_ws/install/common_interfaces:/home/nvidia/microros_ws/install/visualization_msgs:/home/nvidia/microros_ws/install/test_msgs:/home/nvidia/microros_ws/install/micro_ros_demos_rclc:/home/nvidia/microros_ws/install/example_interfaces:/home/nvidia/microros_ws/install/action_msgs:/home/nvidia/microros_ws/install/unique_identifier_msgs:/home/nvidia/microros_ws/install/trajectory_msgs:/home/nvidia/microros_ws/install/test_interface_files:/home/nvidia/microros_ws/install/stereo_msgs:/home/nvidia/microros_ws/install/std_srvs:/home/nvidia/microros_ws/install/shape_msgs:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/microros_ws/install/sensor_msgs:/home/nvidia/microros_ws/install/nav_msgs:/home/nvidia/microros_ws/install/diagnostic_msgs:/home/nvidia/microros_ws/install/geometry_msgs:/home/nvidia/microros_ws/install/actionlib_msgs:/home/nvidia/microros_ws/install/std_msgs:/home/nvidia/microros_ws/install/statistics_msgs:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/nvidia/microros_ws/install/rmw_microxrcedds:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nvidia/microros_ws/install/rosgraph_msgs:/home/nvidia/microros_ws/install/rclc_parameter:/home/nvidia/microros_ws/install/rclc:/home/nvidia/microros_ws/install/composition_interfaces:/home/nvidia/microros_ws/install/rcl_interfaces:/home/nvidia/microros_ws/install/micro_ros_setup:/home/nvidia/microros_ws/install/micro_ros_msgs:/home/nvidia/microros_ws/install/micro_ros_demos_rclcpp:/home/nvidia/microros_ws/install/lifecycle_msgs:/home/nvidia/microros_ws/install/complex_msgs:/home/nvidia/microros_ws/install/builtin_interfaces:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_robot_integration:/home/nvidia/ros2_ws/install/zed_multi_camera:/home/nvidia/ros2_ws/install/zed_display_rviz2:/home/nvidia/ros2_ws/install/zed_depth_to_laserscan:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_tutorial_video:/home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking:/home/nvidia/ros2_ws/install/zed_tutorial_depth:/home/nvidia/ros2_ws/install/zed_topic_benchmark:/home/nvidia/ros2_ws/install/zed_topic_benchmark_component:/home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces:/home/nvidia/ros2_ws/install/zed_rgb_convert:/home/nvidia/ros2_ws/install/zed_aruco_localization:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/rviz_plugin_zed_od:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/zed_interfaces:/home/nvidia/ros2_ws/install/vision_opencv:/home/nvidia/ros2_ws/install/opencv_tests:/home/nvidia/ros2_ws/install/micro_ros_agent:/home/nvidia/ros2_ws/install/micro_ros_msgs:/home/nvidia/ros2_ws/install/image_geometry:/home/nvidia/ros2_ws/install/estimation_and_vision_assignment:/home/nvidia/ros2_ws/install/drive_base_msgs:/home/nvidia/ros2_ws/install/costmap_converter:/home/nvidia/ros2_ws/install/cv_bridge:/home/nvidia/ros2_ws/install/costmap_converter_msgs:/home/nvidia/ros2_ws/install/car_control:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:207a099c-a579-4bec-9f1f-a56340dd4ed3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/nvidia/ros2_ws/build/lane_follower', 'LC_ALL': 'en_US.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/ros2_ws/build/lane_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ros2_ws/install/lane_follower/lib/python3.8/site-packages:/home/nvidia/rosbag_ws/install/ros2bag/lib/python3.8/site-packages:/home/nvidia/rosbag_ws/install/rosbag2_transport/lib/python3.8/site-packages:/home/nvidia/rosbag_ws/install/rosbag2_py/lib/python3.8/site-packages:/home/nvidia/rosbag_ws/install/rosbag2_test_common/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/visualization_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/test_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/example_interfaces/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/trajectory_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/stereo_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/shape_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/sensor_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/nav_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/diagnostic_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/actionlib_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/statistics_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/rosgraph_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/composition_interfaces/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/rcl_interfaces/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/complex_msgs/lib/python3.8/site-packages:/home/nvidia/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages:/home/nvidia/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/home/nvidia/ros2_ws/install/opencv_tests/lib/python3.8/site-packages:/home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/nvidia/ros2_ws/install/image_geometry/lib/python3.8/site-packages:/home/nvidia/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/nvidia/ros2_ws/install/cv_bridge/lib/python3.8/site-packages:/home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/nvidia/rosbag_ws/install/rosbag2:/home/nvidia/rosbag_ws/install/rosbag2_compression_zstd:/home/nvidia/rosbag_ws/install/zstd_vendor:/home/nvidia/rosbag_ws/install/rosbag2_transport:/home/nvidia/rosbag_ws/install/rosbag2_py:/home/nvidia/rosbag_ws/install/rosbag2_performance_benchmarking:/home/nvidia/rosbag_ws/install/rosbag2_converter_default_plugins:/home/nvidia/rosbag_ws/install/rosbag2_compression:/home/nvidia/rosbag_ws/install/bag_recorder_nodes:/home/nvidia/rosbag_ws/install/rosbag2_cpp:/home/nvidia/rosbag_ws/install/rosbag2_storage_default_plugins:/home/nvidia/rosbag_ws/install/sqlite3_vendor:/home/nvidia/rosbag_ws/install/shared_queues_vendor:/home/nvidia/rosbag_ws/install/rosbag2_tests:/home/nvidia/rosbag_ws/install/rosbag2_test_common:/home/nvidia/rosbag_ws/install/rosbag2_storage:/home/nvidia/microros_ws/install/common_interfaces:/home/nvidia/microros_ws/install/visualization_msgs:/home/nvidia/microros_ws/install/test_msgs:/home/nvidia/microros_ws/install/micro_ros_demos_rclc:/home/nvidia/microros_ws/install/example_interfaces:/home/nvidia/microros_ws/install/action_msgs:/home/nvidia/microros_ws/install/unique_identifier_msgs:/home/nvidia/microros_ws/install/trajectory_msgs:/home/nvidia/microros_ws/install/test_interface_files:/home/nvidia/microros_ws/install/stereo_msgs:/home/nvidia/microros_ws/install/std_srvs:/home/nvidia/microros_ws/install/shape_msgs:/home/nvidia/microros_ws/install/sensor_msgs:/home/nvidia/microros_ws/install/nav_msgs:/home/nvidia/microros_ws/install/diagnostic_msgs:/home/nvidia/microros_ws/install/geometry_msgs:/home/nvidia/microros_ws/install/actionlib_msgs:/home/nvidia/microros_ws/install/std_msgs:/home/nvidia/microros_ws/install/statistics_msgs:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/nvidia/microros_ws/install/rmw_microxrcedds:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/nvidia/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nvidia/microros_ws/install/rosgraph_msgs:/home/nvidia/microros_ws/install/rclc_parameter:/home/nvidia/microros_ws/install/rclc:/home/nvidia/microros_ws/install/composition_interfaces:/home/nvidia/microros_ws/install/rcl_interfaces:/home/nvidia/microros_ws/install/microxrcedds_client:/home/nvidia/microros_ws/install/microcdr:/home/nvidia/microros_ws/install/micro_ros_setup:/home/nvidia/microros_ws/install/micro_ros_msgs:/home/nvidia/microros_ws/install/micro_ros_demos_rclcpp:/home/nvidia/microros_ws/install/lifecycle_msgs:/home/nvidia/microros_ws/install/complex_msgs:/home/nvidia/microros_ws/install/builtin_interfaces:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_robot_integration:/home/nvidia/ros2_ws/install/zed_multi_camera:/home/nvidia/ros2_ws/install/zed_display_rviz2:/home/nvidia/ros2_ws/install/zed_depth_to_laserscan:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_tutorial_video:/home/nvidia/ros2_ws/install/zed_tutorial_pos_tracking:/home/nvidia/ros2_ws/install/zed_tutorial_depth:/home/nvidia/ros2_ws/install/zed_topic_benchmark:/home/nvidia/ros2_ws/install/zed_topic_benchmark_component:/home/nvidia/ros2_ws/install/zed_topic_benchmark_interfaces:/home/nvidia/ros2_ws/install/zed_rgb_convert:/home/nvidia/ros2_ws/install/zed_aruco_localization:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/rviz_plugin_zed_od:/home/nvidia/ros2_ws/install/zed_interfaces:/home/nvidia/ros2_ws/install/vision_opencv:/home/nvidia/ros2_ws/install/micro_ros_agent:/home/nvidia/ros2_ws/install/micro_ros_msgs:/home/nvidia/ros2_ws/install/image_geometry:/home/nvidia/ros2_ws/install/estimation_and_vision_assignment:/home/nvidia/ros2_ws/install/drive_base_msgs:/home/nvidia/ros2_ws/install/costmap_converter:/home/nvidia/ros2_ws/install/cv_bridge:/home/nvidia/ros2_ws/install/costmap_converter_msgs:/home/nvidia/ros2_ws/install/car_control:/home/nvidia/cmake-install:', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[18.455066] (-) TimerEvent: {}
+[18.558053] (-) TimerEvent: {}
+[18.660597] (-) TimerEvent: {}
+[18.766567] (-) TimerEvent: {}
+[18.871293] (-) TimerEvent: {}
+[18.972304] (-) TimerEvent: {}
+[19.073953] (-) TimerEvent: {}
+[19.175358] (-) TimerEvent: {}
+[19.281759] (-) TimerEvent: {}
+[19.383404] (-) TimerEvent: {}
+[19.484878] (-) TimerEvent: {}
+[19.588199] (-) TimerEvent: {}
+[19.690214] (-) TimerEvent: {}
+[19.791999] (-) TimerEvent: {}
+[19.894207] (-) TimerEvent: {}
+[19.995546] (-) TimerEvent: {}
+[20.101239] (-) TimerEvent: {}
+[20.205605] (-) TimerEvent: {}
+[20.310162] (-) TimerEvent: {}
+[20.411448] (-) TimerEvent: {}
+[20.513292] (-) TimerEvent: {}
+[20.752385] (-) TimerEvent: {}
+[20.853549] (-) TimerEvent: {}
+[20.954616] (-) TimerEvent: {}
+[21.055585] (-) TimerEvent: {}
+[21.156556] (-) TimerEvent: {}
+[21.257562] (-) TimerEvent: {}
+[21.358480] (-) TimerEvent: {}
+[21.363524] (lane_follower) StdoutLine: {'line': b'running egg_info\n'}
+[21.369754] (lane_follower) StdoutLine: {'line': b'creating ../../../build/lane_follower/lane_follower.egg-info\n'}
+[21.371638] (lane_follower) StdoutLine: {'line': b'writing ../../../build/lane_follower/lane_follower.egg-info/PKG-INFO\n'}
+[21.373705] (lane_follower) StdoutLine: {'line': b'writing dependency_links to ../../../build/lane_follower/lane_follower.egg-info/dependency_links.txt\n'}
+[21.375008] (lane_follower) StdoutLine: {'line': b'writing entry points to ../../../build/lane_follower/lane_follower.egg-info/entry_points.txt\n'}
+[21.378753] (lane_follower) StdoutLine: {'line': b'writing requirements to ../../../build/lane_follower/lane_follower.egg-info/requires.txt\n'}
+[21.383707] (lane_follower) StdoutLine: {'line': b'writing top-level names to ../../../build/lane_follower/lane_follower.egg-info/top_level.txt\n'}
+[21.458763] (-) TimerEvent: {}
+[21.545189] (lane_follower) StdoutLine: {'line': b"writing manifest file '../../../build/lane_follower/lane_follower.egg-info/SOURCES.txt'\n"}
+[21.559096] (-) TimerEvent: {}
+[21.661437] (-) TimerEvent: {}
+[21.762491] (-) TimerEvent: {}
+[21.829210] (lane_follower) StdoutLine: {'line': b"reading manifest file '../../../build/lane_follower/lane_follower.egg-info/SOURCES.txt'\n"}
+[21.834263] (lane_follower) StdoutLine: {'line': b"writing manifest file '../../../build/lane_follower/lane_follower.egg-info/SOURCES.txt'\n"}
+[21.835638] (lane_follower) StdoutLine: {'line': b'running build\n'}
+[21.838028] (lane_follower) StdoutLine: {'line': b'running build_py\n'}
+[21.839266] (lane_follower) StdoutLine: {'line': b'creating /home/nvidia/ros2_ws/build/lane_follower/build\n'}
+[21.840686] (lane_follower) StdoutLine: {'line': b'creating /home/nvidia/ros2_ws/build/lane_follower/build/lib\n'}
+[21.841800] (lane_follower) StdoutLine: {'line': b'creating /home/nvidia/ros2_ws/build/lane_follower/build/lib/lane_follower\n'}
+[21.842311] (lane_follower) StdoutLine: {'line': b'copying lane_follower/__init__.py -> /home/nvidia/ros2_ws/build/lane_follower/build/lib/lane_follower\n'}
+[21.863355] (-) TimerEvent: {}
+[21.905309] (lane_follower) StdoutLine: {'line': b'running install\n'}
+[21.920026] (lane_follower) StdoutLine: {'line': b'running install_lib\n'}
+[21.952216] (lane_follower) StdoutLine: {'line': b'creating /home/nvidia/ros2_ws/install/lane_follower/lib/python3.8/site-packages/lane_follower\n'}
+[21.955263] (lane_follower) StdoutLine: {'line': b'copying /home/nvidia/ros2_ws/build/lane_follower/build/lib/lane_follower/__init__.py -> /home/nvidia/ros2_ws/install/lane_follower/lib/python3.8/site-packages/lane_follower\n'}
+[21.964213] (-) TimerEvent: {}
+[21.979840] (lane_follower) StdoutLine: {'line': b'byte-compiling /home/nvidia/ros2_ws/install/lane_follower/lib/python3.8/site-packages/lane_follower/__init__.py to __init__.cpython-38.pyc\n'}
+[21.995085] (lane_follower) StdoutLine: {'line': b'running install_data\n'}
+[22.001680] (lane_follower) StdoutLine: {'line': b'creating /home/nvidia/ros2_ws/install/lane_follower/share/ament_index\n'}
+[22.002529] (lane_follower) StdoutLine: {'line': b'creating /home/nvidia/ros2_ws/install/lane_follower/share/ament_index/resource_index\n'}
+[22.003046] (lane_follower) StdoutLine: {'line': b'creating /home/nvidia/ros2_ws/install/lane_follower/share/ament_index/resource_index/packages\n'}
+[22.003583] (lane_follower) StdoutLine: {'line': b'copying resource/lane_follower -> /home/nvidia/ros2_ws/install/lane_follower/share/ament_index/resource_index/packages\n'}
+[22.004044] (lane_follower) StdoutLine: {'line': b'copying package.xml -> /home/nvidia/ros2_ws/install/lane_follower/share/lane_follower\n'}
+[22.004494] (lane_follower) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.017163] (lane_follower) StdoutLine: {'line': b'Copying ../../../build/lane_follower/lane_follower.egg-info to /home/nvidia/ros2_ws/install/lane_follower/lib/python3.8/site-packages/lane_follower-0.0.0-py3.8.egg-info\n'}
+[22.024749] (lane_follower) StdoutLine: {'line': b'running install_scripts\n'}
+[22.064505] (-) TimerEvent: {}
+[22.157691] (lane_follower) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/ros2_ws/build/lane_follower/install.log'\n"}
+[22.167192] (-) TimerEvent: {}
+[22.268231] (-) TimerEvent: {}
+[22.298951] (lane_follower) CommandEnded: {'returncode': 0}
+[22.385832] (-) TimerEvent: {}
+[22.489261] (-) TimerEvent: {}
+[22.597234] (-) TimerEvent: {}
+[22.702581] (-) TimerEvent: {}
+[22.807443] (lane_follower) JobEnded: {'identifier': 'lane_follower', 'rc': 0}
+[22.813080] (-) TimerEvent: {}
+[22.815152] (-) EventReactorShutdown: {}

@@ -1,0 +1,28 @@
+[0.639s] Invoking command in '/home/nvidia/ros2_ws/build/car_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/car_control -- -j6 -l6
+[2.164s] [ 50%] Built target car_control
+[2.196s] [100%] Built target car_control_test
+[2.391s] Invoked command in '/home/nvidia/ros2_ws/build/car_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/car_control -- -j6 -l6
+[3.091s] Invoking command in '/home/nvidia/ros2_ws/build/car_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/car_control
+[3.359s] -- Install configuration: "Release"
+[3.363s] -- Execute custom install script
+[3.372s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/lib/car_control/car_control
+[3.374s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/lib/car_control/car_control_test
+[3.382s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control//launch/car_control.launch.py
+[3.387s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control//launch/car_nav_demo.launch.py
+[3.389s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control//launch/rtabmapping.launch.py
+[3.389s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/ament_index/resource_index/package_run_dependencies/car_control
+[3.394s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/ament_index/resource_index/parent_prefix_path/car_control
+[3.427s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/environment/ament_prefix_path.sh
+[3.427s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/environment/ament_prefix_path.dsv
+[3.428s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/environment/path.sh
+[3.428s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/environment/path.dsv
+[3.429s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/local_setup.bash
+[3.429s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/local_setup.sh
+[3.439s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/local_setup.zsh
+[3.441s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/local_setup.dsv
+[3.441s] -- Symlinking: /home/nvidia/ros2_ws/install/car_control/share/car_control/package.dsv
+[3.533s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/ament_index/resource_index/packages/car_control
+[3.612s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/cmake/car_controlConfig.cmake
+[3.613s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/cmake/car_controlConfig-version.cmake
+[3.619s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/car_control/share/car_control/package.xml
+[3.641s] Invoked command in '/home/nvidia/ros2_ws/build/car_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/car_control

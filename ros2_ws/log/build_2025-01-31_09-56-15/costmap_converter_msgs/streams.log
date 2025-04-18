@@ -1,0 +1,122 @@
+[0.915s] Invoking command in '/home/nvidia/ros2_ws/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/costmap_converter_msgs -- -j6 -l6
+[2.432s] [  2%] Built target costmap_converter_msgs__cpp
+[2.514s] [ 10%] Built target costmap_converter_msgs__rosidl_generator_c
+[3.304s] [ 18%] Built target costmap_converter_msgs__rosidl_typesupport_microxrcedds_cpp
+[3.324s] [ 26%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp
+[3.868s] [ 40%] Built target costmap_converter_msgs__rosidl_typesupport_cpp
+[3.872s] [ 42%] Built target costmap_converter_msgs__rosidl_typesupport_microxrcedds_c
+[3.944s] [ 51%] Built target costmap_converter_msgs__rosidl_typesupport_c
+[4.054s] [ 59%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp
+[4.407s] [ 67%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c
+[4.595s] [ 75%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c
+[4.966s] [ 75%] Built target costmap_converter_msgs
+[5.476s] [ 77%] Built target costmap_converter_msgs__py
+[6.075s] [ 83%] Built target costmap_converter_msgs__python
+[6.572s] [ 87%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext
+[6.611s] [ 91%] Built target costmap_converter_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[6.660s] [ 95%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext
+[6.689s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.897s] Invoked command in '/home/nvidia/ros2_ws/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/costmap_converter_msgs -- -j6 -l6
+[8.880s] Invoking command in '/home/nvidia/ros2_ws/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/costmap_converter_msgs
+[9.010s] -- Install configuration: "Release"
+[9.015s] -- Execute custom install script
+[9.018s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/ament_index/resource_index/rosidl_interfaces/costmap_converter_msgs
+[9.026s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.h
+[9.028s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.h
+[9.030s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.h
+[9.032s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__functions.h
+[9.033s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__struct.h
+[9.036s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.h
+[9.037s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/obstacle_array_msg.h
+[9.040s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/obstacle_msg.h
+[9.048s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.057s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.sh
+[9.058s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.dsv
+[9.069s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_microxrcedds_c.h
+[9.071s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_microxrcedds_c.h
+[9.074s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[9.077s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_microxrcedds_c.so
+[9.083s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_c.h
+[9.085s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_c.h
+[9.086s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.099s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so
+[9.111s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[9.113s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[9.115s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.120s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.128s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_c.h
+[9.133s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_c.h
+[9.136s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.146s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__builder.hpp
+[9.150s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.hpp
+[9.152s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__traits.hpp
+[9.154s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.hpp
+[9.160s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__builder.hpp
+[9.162s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__struct.hpp
+[9.164s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__traits.hpp
+[9.178s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.hpp
+[9.336s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/obstacle_array_msg.hpp
+[9.338s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/obstacle_msg.hpp
+[9.341s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.347s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/microxrcedds/obstacle_array_msg__type_support_cpp.cpp
+[9.349s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/microxrcedds/obstacle_msg__type_support_cpp.cpp
+[9.353s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_microxrcedds_cpp.hpp
+[9.354s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_microxrcedds_cpp.hpp
+[9.355s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[9.360s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[9.364s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_cpp.hpp
+[9.366s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_cpp.hpp
+[9.369s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.sh
+[9.371s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.dsv
+[9.530s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/__init__.py
+[9.536s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/msg/__init__.py
+[9.538s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/msg/_obstacle_array_msg.py
+[9.540s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/msg/_obstacle_msg.py
+[9.545s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-aarch64-linux-gnu.so
+[9.550s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[9.560s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[9.573s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[9.583s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__python.so
+[9.590s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.idl
+[9.598s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.idl
+[9.600s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.msg
+[9.609s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.msg
+[9.610s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/ament_index/resource_index/package_run_dependencies/costmap_converter_msgs
+[9.625s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/ament_index/resource_index/parent_prefix_path/costmap_converter_msgs
+[9.632s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.sh
+[9.633s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.dsv
+[9.634s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.sh
+[9.636s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.dsv
+[9.640s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.bash
+[9.645s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.sh
+[9.661s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.zsh
+[9.663s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.dsv
+[9.666s] -- Symlinking: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv
+[9.877s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/ament_index/resource_index/packages/costmap_converter_msgs
+[9.890s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake-extras.cmake
+[9.895s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.906s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.057s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.059s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.069s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.082s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.232s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig.cmake
+[10.234s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig-version.cmake
+[10.242s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/package.xml
+[10.242s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so
+[10.245s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so
+[10.249s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so
+[10.253s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so
+[10.265s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so
+[10.820s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_generator_cExport.cmake
+[10.823s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_generator_cExport-release.cmake
+[10.825s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.826s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[10.827s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport.cmake
+[10.828s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport-release.cmake
+[10.837s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_generator_cppExport.cmake
+[10.852s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.861s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[10.861s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport.cmake
+[10.862s] -- Up-to-date: /home/nvidia/ros2_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport-release.cmake
+[10.878s] Invoked command in '/home/nvidia/ros2_ws/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/costmap_converter_msgs

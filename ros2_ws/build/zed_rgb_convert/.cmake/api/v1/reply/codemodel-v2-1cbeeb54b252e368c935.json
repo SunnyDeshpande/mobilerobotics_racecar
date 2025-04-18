@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_rgb_convert",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_rgb_convert_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_rgb_convert_files-Release-c8a6cee7d3d6355044e0.json",
+					"name" : "all_zed_rgb_convert_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f0b676ae1151ecf3acbd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_rgb_convert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_rgb_convert-Release-47b76a81047471f76c35.json",
+					"name" : "zed_rgb_convert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_rgb_convert_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_rgb_convert_component-Release-bb7ed18be3e3b6d4a966.json",
+					"name" : "zed_rgb_convert_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_rgb_convert_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_rgb_convert_uninstall-Release-8accf64ff25e2f940f61.json",
+					"name" : "zed_rgb_convert_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/ros2_ws/build/zed_rgb_convert",
+		"source" : "/home/nvidia/ros2_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

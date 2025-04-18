@@ -1,0 +1,4 @@
+source;share/estimation_and_vision_assignment/local_setup.bash
+source;share/estimation_and_vision_assignment/local_setup.dsv
+source;share/estimation_and_vision_assignment/local_setup.sh
+source;share/estimation_and_vision_assignment/local_setup.zsh

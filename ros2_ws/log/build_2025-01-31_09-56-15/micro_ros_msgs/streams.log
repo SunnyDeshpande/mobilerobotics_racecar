@@ -1,0 +1,141 @@
+[1.172s] Invoking command in '/home/nvidia/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/micro_ros_msgs -- -j6 -l6
+[3.087s] [  8%] Built target micro_ros_msgs__rosidl_generator_c
+[3.516s] [ 10%] Built target micro_ros_msgs__cpp
+[3.817s] [ 18%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[3.899s] [ 27%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_c
+[4.074s] [ 35%] Built target micro_ros_msgs__rosidl_typesupport_c
+[4.228s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[4.335s] [ 52%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[4.384s] [ 61%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_cpp
+[4.406s] [ 69%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[4.808s] [ 77%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[5.297s] [ 77%] Built target micro_ros_msgs
+[5.825s] [ 79%] Built target micro_ros_msgs__py
+[6.399s] [ 86%] Built target micro_ros_msgs__python
+[7.501s] [ 89%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.631s] [ 93%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[7.683s] [ 96%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[7.723s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[7.923s] Invoked command in '/home/nvidia/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/micro_ros_msgs -- -j6 -l6
+[10.836s] Invoking command in '/home/nvidia/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/micro_ros_msgs
+[11.086s] -- Install configuration: "Release"
+[11.097s] -- Execute custom install script
+[11.099s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[11.109s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.h
+[11.112s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.h
+[11.113s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.h
+[11.116s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.h
+[11.120s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.h
+[11.121s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.h
+[11.132s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.h
+[11.135s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.h
+[11.136s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.h
+[11.136s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.h
+[11.137s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.h
+[11.137s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.h
+[11.138s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.149s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[11.149s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[11.153s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_microxrcedds_c.h
+[11.156s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_microxrcedds_c.h
+[11.159s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_microxrcedds_c.h
+[11.161s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[11.167s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_microxrcedds_c.so
+[11.174s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[11.177s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[11.181s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[11.184s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.190s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[11.199s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[11.202s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[11.206s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[11.212s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.219s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.224s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[11.227s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[11.232s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[11.238s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.240s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__builder.hpp
+[11.243s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.hpp
+[11.247s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__traits.hpp
+[11.252s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[11.258s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__builder.hpp
+[11.264s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.hpp
+[11.269s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__traits.hpp
+[11.275s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[11.285s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__builder.hpp
+[11.289s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.hpp
+[11.290s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__traits.hpp
+[11.291s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.hpp
+[11.291s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.hpp
+[11.291s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.hpp
+[11.292s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.hpp
+[11.295s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.307s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_microxrcedds_cpp.hpp
+[11.315s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_microxrcedds_cpp.hpp
+[11.319s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds/entity__type_support_cpp.cpp
+[11.321s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds/graph__type_support_cpp.cpp
+[11.324s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds/node__type_support_cpp.cpp
+[11.325s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_microxrcedds_cpp.hpp
+[11.327s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[11.332s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[11.338s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[11.339s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[11.342s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[11.344s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[11.350s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[11.351s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py
+[11.362s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/__init__.py
+[11.364s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity.py
+[11.365s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph.py
+[11.365s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node.py
+[11.378s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-aarch64-linux-gnu.so
+[11.390s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[11.397s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[11.402s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[11.413s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__python.so
+[11.420s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[11.424s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[11.429s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[11.430s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[11.432s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[11.435s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[11.438s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[11.586s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[11.590s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[11.593s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[11.607s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[11.612s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[11.764s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[11.770s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[11.772s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[11.776s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[11.777s] -- Symlinking: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[11.925s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[12.043s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[12.050s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.051s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.055s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.063s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.074s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.091s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.096s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[12.099s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[12.102s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[12.253s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[12.277s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[12.308s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[12.308s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[12.309s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[12.801s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport.cmake
+[12.802s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport-release.cmake
+[12.804s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.806s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[12.808s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[12.809s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-release.cmake
+[12.814s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cppExport.cmake
+[12.818s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.819s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[12.820s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[12.822s] -- Up-to-date: /home/nvidia/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-release.cmake
+[12.988s] Invoked command in '/home/nvidia/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/micro_ros_msgs

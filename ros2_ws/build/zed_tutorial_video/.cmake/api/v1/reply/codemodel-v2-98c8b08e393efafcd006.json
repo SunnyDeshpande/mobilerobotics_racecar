@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_tutorial_video",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-99dd69f809dadcc9c5f8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_video::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_video-Release-a87bacec4d6971bdb3a9.json",
+					"name" : "zed_tutorial_video",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_video_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_video_files-Release-136d807ab4e260318718.json",
+					"name" : "zed_tutorial_video_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_tutorial_video_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_tutorial_video_uninstall-Release-30cc0679409a92d344e0.json",
+					"name" : "zed_tutorial_video_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/ros2_ws/build/zed_tutorial_video",
+		"source" : "/home/nvidia/ros2_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/nvidia/ros2_ws/build/zed_tutorial_depth",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFOUND_FOXY -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include -isystem /home/nvidia/microros_ws/install/builtin_interfaces/include -isystem /home/nvidia/microros_ws/install/rosgraph_msgs/include -isystem /home/nvidia/microros_ws/install/statistics_msgs/include -isystem /home/nvidia/microros_ws/install/geometry_msgs/include -isystem /home/nvidia/microros_ws/install/std_msgs/include -isystem /home/nvidia/microros_ws/install/sensor_msgs/include -isystem /home/nvidia/microros_ws/install/rcl_interfaces/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/zed_tutorial_depth.dir/src/zed_depth_sub_tutorial.cpp.o -c /home/nvidia/ros2_ws/src/zed-ros2-examples/tutorials/zed_depth_tutorial/src/zed_depth_sub_tutorial.cpp",
+  "file": "/home/nvidia/ros2_ws/src/zed-ros2-examples/tutorials/zed_depth_tutorial/src/zed_depth_sub_tutorial.cpp"
+}
+]

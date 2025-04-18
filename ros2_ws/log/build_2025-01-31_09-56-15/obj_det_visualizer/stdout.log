@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing obj_det_visualizer.egg-info/PKG-INFO
+writing dependency_links to obj_det_visualizer.egg-info/dependency_links.txt
+writing entry points to obj_det_visualizer.egg-info/entry_points.txt
+writing requirements to obj_det_visualizer.egg-info/requires.txt
+writing top-level names to obj_det_visualizer.egg-info/top_level.txt
+reading manifest file 'obj_det_visualizer.egg-info/SOURCES.txt'
+writing manifest file 'obj_det_visualizer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj-det-visualizer.egg-link (link to .)
+Installing obj_visualizer script to /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/obj_det_visualizer
+
+Installed /home/nvidia/ros2_ws/build/obj_det_visualizer
+running symlink_data

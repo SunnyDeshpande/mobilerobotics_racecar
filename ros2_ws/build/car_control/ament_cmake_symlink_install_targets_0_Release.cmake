@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nvidia/ros2_ws/build/car_control/car_control" "/home/nvidia/ros2_ws/build/car_control/car_control_test" "TARGETS" "car_control" "car_control_test" "DESTINATION" "lib/car_control")

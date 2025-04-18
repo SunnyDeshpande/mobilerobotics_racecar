@@ -1,0 +1,15 @@
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/ament_index/resource_index/package_run_dependencies/zed_aruco_localization
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/ament_index/resource_index/parent_prefix_path/zed_aruco_localization
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/ament_prefix_path.sh
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/ament_prefix_path.dsv
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/path.sh
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/path.dsv
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.bash
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.sh
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.zsh
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.dsv
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.dsv
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/ament_index/resource_index/packages/zed_aruco_localization
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/cmake/zed_aruco_localizationConfig.cmake
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/cmake/zed_aruco_localizationConfig-version.cmake
+/home/nvidia/ros2_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.xml

@@ -1,0 +1,1 @@
+/home/nvidia/ros2_ws/build/estimation_and_vision_assignment/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,3 @@
+/home/nvidia/ros2_ws/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so
+/home/nvidia/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport.cmake
+/home/nvidia/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport-release.cmake

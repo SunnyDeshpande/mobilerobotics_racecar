@@ -1,0 +1,249 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "zed_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nvidia/ros2_ws/build/zed_interfaces/zed_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "zed_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_interfaces_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_interfaces_files-Release-f869ff64753850cd07ad.json",
+					"name" : "all_zed_interfaces_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f66211536539125ac294.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces-Release-82b073bee8980b663a0c.json",
+					"name" : "zed_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__cpp-Release-4dfd0de5485976e29ba4.json",
+					"name" : "zed_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zed_interfaces__py::@ca42c76ffdd9cb26c62f",
+					"jsonFile" : "target-zed_interfaces__py-Release-0e86ffe310490a15406b.json",
+					"name" : "zed_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__python-Release-8f6861106d5ea0e0e900.json",
+					"name" : "zed_interfaces__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_generator_c-Release-ac829a0895d84be084e9.json",
+					"name" : "zed_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_c-Release-cb65dc880abbdd4c4655.json",
+					"name" : "zed_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_c__pyext-Release-586272afe53818e02d00.json",
+					"name" : "zed_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_cpp-Release-97f85d377cfbc103a3ca.json",
+					"name" : "zed_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_fastrtps_c-Release-d5edcd36d2bb0a30b984.json",
+					"name" : "zed_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_fastrtps_c__pyext-Release-67db3624d86881a94043.json",
+					"name" : "zed_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_fastrtps_cpp-Release-98371c945e062d20c97d.json",
+					"name" : "zed_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_introspection_c-Release-a8215a12ad5685b9d3cc.json",
+					"name" : "zed_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_introspection_c__pyext-Release-d4c82df4bc5d1fc27648.json",
+					"name" : "zed_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_introspection_cpp-Release-3f83fa0c9b231f8146be.json",
+					"name" : "zed_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_microxrcedds_c-Release-ea1866e209acc419a578.json",
+					"name" : "zed_interfaces__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_microxrcedds_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_microxrcedds_c__pyext-Release-9317cba2a22a30a33c52.json",
+					"name" : "zed_interfaces__rosidl_typesupport_microxrcedds_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces__rosidl_typesupport_microxrcedds_cpp-Release-4d41584c50427bd01b3a.json",
+					"name" : "zed_interfaces__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_interfaces_uninstall-Release-48bbd832bae90f70779c.json",
+					"name" : "zed_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/ros2_ws/build/zed_interfaces",
+		"source" : "/home/nvidia/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

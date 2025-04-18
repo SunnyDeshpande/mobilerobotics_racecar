@@ -1,0 +1,23 @@
+[0.357s] Invoking command in '/home/nvidia/ros2_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/zed_tutorial_depth -- -j6 -l6
+[1.907s] [100%] Built target zed_tutorial_depth
+[2.210s] Invoked command in '/home/nvidia/ros2_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/zed_tutorial_depth -- -j6 -l6
+[2.246s] Invoking command in '/home/nvidia/ros2_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/zed_tutorial_depth
+[3.864s] -- Install configuration: "Release"
+[3.865s] -- Execute custom install script
+[3.869s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/lib/zed_tutorial_depth/zed_tutorial_depth
+[3.870s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_depth
+[3.870s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_depth
+[3.873s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.sh
+[3.874s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.dsv
+[3.874s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.sh
+[3.875s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.dsv
+[3.875s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.bash
+[3.875s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.sh
+[3.876s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.zsh
+[3.877s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.dsv
+[3.877s] -- Symlinking: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.dsv
+[3.878s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/ament_index/resource_index/packages/zed_tutorial_depth
+[3.878s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig.cmake
+[3.879s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig-version.cmake
+[3.879s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.xml
+[3.980s] Invoked command in '/home/nvidia/ros2_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/zed_tutorial_depth

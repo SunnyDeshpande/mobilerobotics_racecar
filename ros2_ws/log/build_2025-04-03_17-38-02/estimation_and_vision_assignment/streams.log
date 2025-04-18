@@ -1,0 +1,28 @@
+[0.216s] Invoking command in '/home/nvidia/ros2_ws/build/estimation_and_vision_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/estimation_and_vision_assignment -- -j6 -l6
+[0.920s] Invoked command in '/home/nvidia/ros2_ws/build/estimation_and_vision_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/estimation_and_vision_assignment -- -j6 -l6
+[1.086s] Invoking command in '/home/nvidia/ros2_ws/build/estimation_and_vision_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/estimation_and_vision_assignment
+[1.211s] -- Install configuration: ""
+[1.216s] -- Execute custom install script
+[1.220s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/lib/estimation_and_vision_assignment/monte_carlo_localization.py
+[1.222s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/lib/estimation_and_vision_assignment/republish_map.py
+[1.223s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/lib/estimation_and_vision_assignment/bag_chaser.py
+[1.229s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/resources/map.pkl
+[1.231s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/resources/viz.rviz
+[1.234s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/launch/ground_truth_pub.launch.py
+[1.237s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/launch/monte_carlo_localization.launch.py
+[1.244s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/ament_index/resource_index/package_run_dependencies/estimation_and_vision_assignment
+[1.248s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/ament_index/resource_index/parent_prefix_path/estimation_and_vision_assignment
+[1.253s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/environment/ament_prefix_path.sh
+[1.256s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/environment/ament_prefix_path.dsv
+[1.260s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/environment/path.sh
+[1.263s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/environment/path.dsv
+[1.266s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/local_setup.bash
+[1.270s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/local_setup.sh
+[1.273s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/local_setup.zsh
+[1.281s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/local_setup.dsv
+[1.282s] -- Symlinking: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/package.dsv
+[1.407s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/ament_index/resource_index/packages/estimation_and_vision_assignment
+[1.414s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/cmake/estimation_and_vision_assignmentConfig.cmake
+[1.416s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/cmake/estimation_and_vision_assignmentConfig-version.cmake
+[1.425s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/estimation_and_vision_assignment/share/estimation_and_vision_assignment/package.xml
+[1.442s] Invoked command in '/home/nvidia/ros2_ws/build/estimation_and_vision_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/estimation_and_vision_assignment

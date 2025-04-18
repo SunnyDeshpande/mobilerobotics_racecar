@@ -1,0 +1,40 @@
+[1.295s] Invoking command in '/home/nvidia/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/image_geometry -- -j6 -l6
+[3.063s] [ 18%] Built target gtest_main
+[3.093s] [ 36%] Built target gtest
+[3.750s] [ 63%] Built target image_geometry
+[5.358s] [ 81%] Built target image_geometry-utest
+[5.625s] [100%] Built target image_geometry-utest-equi
+[5.999s] Invoked command in '/home/nvidia/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/ros2_ws/build/image_geometry -- -j6 -l6
+[6.056s] Invoking command in '/home/nvidia/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/image_geometry
+[6.582s] -- Install configuration: "Release"
+[6.582s] -- Execute custom install script
+[6.583s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[6.588s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[6.596s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py
+[6.596s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py
+[6.597s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+[6.598s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/include/image_geometry/stereo_camera_model.h
+[6.598s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/include/image_geometry/visibility_control.hpp
+[6.599s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/lib/libimage_geometry.so
+[6.607s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/environment/library_path.sh
+[6.609s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/environment/library_path.dsv
+[6.610s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[6.612s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[6.620s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[6.620s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[6.621s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[6.621s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[6.622s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[6.622s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[6.627s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[6.629s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[6.630s] -- Symlinking: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/package.dsv
+[6.784s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[6.815s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[6.816s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.817s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.818s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[6.963s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[6.966s] -- Up-to-date symlink: /home/nvidia/ros2_ws/install/image_geometry/share/image_geometry/package.xml
+[8.033s] Listing '/home/nvidia/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry'...
+[8.227s] Invoked command in '/home/nvidia/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/rosbag_ws/install/ros2bag:/home/nvidia/microros_ws/install/sensor_msgs_py:/home/nvidia/ros2_ws/install/obj_det_visualizer:/home/nvidia/ros2_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/ros2_ws/build/image_geometry

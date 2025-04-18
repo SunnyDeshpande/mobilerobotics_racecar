@@ -1,0 +1,35 @@
+running develop
+Removing /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj-det-visualizer.egg-link (link to .)
+running egg_info
+writing ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/PKG-INFO
+writing dependency_links to ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/dependency_links.txt
+writing entry points to ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/entry_points.txt
+writing requirements to ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/requires.txt
+writing top-level names to ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/top_level.txt
+reading manifest file '../../build/obj_det_visualizer/obj_det_visualizer.egg-info/SOURCES.txt'
+writing manifest file '../../build/obj_det_visualizer/obj_det_visualizer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nvidia/ros2_ws/build/obj_det_visualizer/build
+creating /home/nvidia/ros2_ws/build/obj_det_visualizer/build/lib
+creating /home/nvidia/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer
+copying obj_det_visualizer/__init__.py -> /home/nvidia/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer
+copying obj_det_visualizer/obj_det.py -> /home/nvidia/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer
+copying obj_det_visualizer/read_bag.py -> /home/nvidia/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer
+running install
+running install_lib
+creating /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj_det_visualizer
+copying /home/nvidia/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer/__init__.py -> /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj_det_visualizer
+copying /home/nvidia/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer/obj_det.py -> /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj_det_visualizer
+copying /home/nvidia/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer/read_bag.py -> /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj_det_visualizer
+byte-compiling /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj_det_visualizer/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj_det_visualizer/obj_det.py to obj_det.cpython-38.pyc
+byte-compiling /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj_det_visualizer/read_bag.py to read_bag.cpython-38.pyc
+running install_data
+copying resource/obj_det_visualizer -> /home/nvidia/ros2_ws/install/obj_det_visualizer/share/ament_index/resource_index/packages
+copying package.xml -> /home/nvidia/ros2_ws/install/obj_det_visualizer/share/obj_det_visualizer
+running install_egg_info
+Copying ../../build/obj_det_visualizer/obj_det_visualizer.egg-info to /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/python3.8/site-packages/obj_det_visualizer-0.0.0-py3.8.egg-info
+running install_scripts
+Installing obj_visualizer script to /home/nvidia/ros2_ws/install/obj_det_visualizer/lib/obj_det_visualizer
+writing list of installed files to '/home/nvidia/ros2_ws/build/obj_det_visualizer/install.log'

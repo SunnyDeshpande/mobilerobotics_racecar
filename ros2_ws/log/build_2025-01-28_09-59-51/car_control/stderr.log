@@ -1,0 +1,10 @@
+[01m[K/home/nvidia/ros2_ws/src/car_control/src/car_control_test.cpp:[m[K In constructor ‘[01m[KCarControlNode::CarControlNode()[m[K’:
+[01m[K/home/nvidia/ros2_ws/src/car_control/src/car_control_test.cpp:244:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KCarControlNode::autonavigation[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  244 |     int32_t [01;35m[Kautonavigation[m[K = 97100; //
+      |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/car_control/src/car_control_test.cpp:239:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool CarControlNode::flag[m[K’ [[01;35m[K-Wreorder[m[K]
+  239 |     bool [01;35m[Kflag[m[K = false;
+      |          [01;35m[K^~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/car_control/src/car_control_test.cpp:18:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   18 |     [01;35m[KCarControlNode[m[K()
+      |     [01;35m[K^~~~~~~~~~~~~~[m[K

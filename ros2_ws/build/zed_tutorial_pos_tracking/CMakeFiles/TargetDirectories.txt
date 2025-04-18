@@ -1,0 +1,11 @@
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/install/strip.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/install/local.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/install.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/list_install_components.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/rebuild_cache.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/edit_cache.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/test.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/zed_tutorial_pos_tracking.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/zed_tutorial_pos_tracking_files.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/zed_tutorial_pos_tracking_uninstall.dir
+/home/nvidia/ros2_ws/build/zed_tutorial_pos_tracking/CMakeFiles/uninstall.dir
