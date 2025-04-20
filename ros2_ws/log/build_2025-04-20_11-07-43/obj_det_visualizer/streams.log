@@ -1,0 +1,49 @@
+[2.416s] Invoking command in '/home/gerald/mobilerobotics_racecar/ros2_ws/src/obj_det_visualizer': PYTHONPATH=/home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obj_det_visualizer build --build-base /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/build install --record /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/install.log --install-scripts $base/lib/obj_det_visualizer --single-version-externally-managed install_data
+[3.085s] /home/gerald/.local/lib/python3.10/site-packages/setuptools/dist.py:488: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.086s] !!
+[3.086s] 
+[3.086s]         ********************************************************************************
+[3.086s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.086s]         versions. Please use the underscore name 'script_dir' instead.
+[3.086s] 
+[3.086s]         This deprecation is overdue, please update your project and remove deprecated
+[3.086s]         calls to avoid build errors in the future.
+[3.086s] 
+[3.086s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.086s]         ********************************************************************************
+[3.086s] 
+[3.086s] !!
+[3.086s]   opt = self.warn_dash_deprecation(opt, section)
+[3.117s] /home/gerald/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[3.117s]   warnings.warn(msg)
+[3.326s] running egg_info
+[3.358s] writing ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/PKG-INFO
+[3.365s] writing dependency_links to ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/dependency_links.txt
+[3.365s] writing entry points to ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/entry_points.txt
+[3.365s] writing requirements to ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/requires.txt
+[3.366s] writing top-level names to ../../build/obj_det_visualizer/obj_det_visualizer.egg-info/top_level.txt
+[3.432s] reading manifest file '../../build/obj_det_visualizer/obj_det_visualizer.egg-info/SOURCES.txt'
+[3.433s] writing manifest file '../../build/obj_det_visualizer/obj_det_visualizer.egg-info/SOURCES.txt'
+[3.433s] running build
+[3.433s] running build_py
+[3.435s] copying obj_det_visualizer/__init__.py -> /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer
+[3.435s] copying obj_det_visualizer/obj_det.py -> /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer
+[3.436s] copying obj_det_visualizer/read_bag.py -> /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer
+[3.436s] running install
+[3.440s] running install_lib
+[3.472s] creating /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages/obj_det_visualizer
+[3.473s] copying /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer/__init__.py -> /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages/obj_det_visualizer
+[3.473s] copying /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer/obj_det.py -> /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages/obj_det_visualizer
+[3.473s] copying /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/build/lib/obj_det_visualizer/read_bag.py -> /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages/obj_det_visualizer
+[3.475s] byte-compiling /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages/obj_det_visualizer/__init__.py to __init__.cpython-310.pyc
+[3.475s] byte-compiling /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages/obj_det_visualizer/obj_det.py to obj_det.cpython-310.pyc
+[3.476s] byte-compiling /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages/obj_det_visualizer/read_bag.py to read_bag.cpython-310.pyc
+[3.477s] running install_data
+[3.477s] copying resource/obj_det_visualizer -> /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/share/ament_index/resource_index/packages
+[3.477s] copying package.xml -> /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/share/obj_det_visualizer
+[3.477s] running install_egg_info
+[3.523s] Copying ../../build/obj_det_visualizer/obj_det_visualizer.egg-info to /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages/obj_det_visualizer-0.0.0-py3.10.egg-info
+[3.524s] running install_scripts
+[3.759s] Installing obj_visualizer script to /home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/obj_det_visualizer
+[3.766s] writing list of installed files to '/home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/install.log'
+[3.790s] Invoked command in '/home/gerald/mobilerobotics_racecar/ros2_ws/src/obj_det_visualizer' returned '0': PYTHONPATH=/home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gerald/mobilerobotics_racecar/ros2_ws/install/obj_det_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obj_det_visualizer build --build-base /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/build install --record /home/gerald/mobilerobotics_racecar/ros2_ws/build/obj_det_visualizer/install.log --install-scripts $base/lib/obj_det_visualizer --single-version-externally-managed install_data

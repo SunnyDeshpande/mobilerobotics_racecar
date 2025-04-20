@@ -39,7 +39,7 @@ def generate_launch_description():
         model = LaunchConfiguration("model")
         model_cmd = DeclareLaunchArgument(
             "model",
-            default_value="yolov8m.pt",
+            default_value="yolov8_cone.pt",
             description="Model name or path",
         )
 
@@ -135,9 +135,13 @@ def generate_launch_description():
         )
 
         input_image_topic = LaunchConfiguration("input_image_topic")
+
         input_image_topic_cmd = DeclareLaunchArgument(
             "input_image_topic",
-            default_value="/camera/rgb/image_raw",
+            # default_value="/camera/rgb/image_raw",
+
+            default_value="/zed/zed_node/rgb/image_rect_color",
+
             description="Name of the input image topic",
         )
 

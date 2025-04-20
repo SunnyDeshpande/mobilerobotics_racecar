@@ -8,9 +8,7 @@
 /home/gerald/mobilerobotics_racecar/ros2_ws/install/yolo_bringup/share/yolo_bringup//launch/yolov9.launch.py
 /home/gerald/mobilerobotics_racecar/ros2_ws/install/yolo_bringup/share/ament_index/resource_index/package_run_dependencies/yolo_bringup
 /home/gerald/mobilerobotics_racecar/ros2_ws/install/yolo_bringup/share/ament_index/resource_index/parent_prefix_path/yolo_bringup
-/home/gerald/mobilerobotics_racecar/ros2_ws/install/yolo_bringup/share/yolo_bringup/environment/ament_prefix_path.sh
 /home/gerald/mobilerobotics_racecar/ros2_ws/install/yolo_bringup/share/yolo_bringup/environment/ament_prefix_path.dsv
-/home/gerald/mobilerobotics_racecar/ros2_ws/install/yolo_bringup/share/yolo_bringup/environment/path.sh
 /home/gerald/mobilerobotics_racecar/ros2_ws/install/yolo_bringup/share/yolo_bringup/environment/path.dsv
 /home/gerald/mobilerobotics_racecar/ros2_ws/install/yolo_bringup/share/yolo_bringup/local_setup.bash
 /home/gerald/mobilerobotics_racecar/ros2_ws/install/yolo_bringup/share/yolo_bringup/local_setup.sh

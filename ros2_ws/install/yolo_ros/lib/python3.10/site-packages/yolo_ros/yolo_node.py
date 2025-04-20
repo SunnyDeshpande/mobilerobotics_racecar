@@ -149,9 +149,17 @@ class YoloNode(LifecycleNode):
                 SetClasses, "set_classes", self.set_classes_cb
             )
 
+        # self._sub = self.create_subscription(
+        #     Image, "image_raw", self.image_cb, self.image_qos_profile
+        # )
+
+
         self._sub = self.create_subscription(
-            Image, "image_raw", self.image_cb, self.image_qos_profile
+            Image, "/zed/zed_node/rgb/image_rect_color", self.image_cb, self.image_qos_profile
         )
+
+        self.get_logger().info(f"ZED subscription configured")
+
 
         super().on_activate(state)
         self.get_logger().info(f"[{self.get_name()}] Activated")

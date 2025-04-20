@@ -81,19 +81,26 @@ class DebugNode(LifecycleNode):
 
         # subs
         self.image_sub = message_filters.Subscriber(
-            self, Image, "image_raw", qos_profile=self.image_qos_profile
+            self, Image, "/zed/zed_node/rgb/image_rect_color", qos_profile=self.image_qos_profile
         )
+
+        # self.image_sub = message_filters.Subscriber(
+        #     self, Image, "image_raw", qos_profile=self.image_qos_profile
+        # )
+
         self.detections_sub = message_filters.Subscriber(
             self, DetectionArray, "detections", qos_profile=10
         )
 
         self._synchronizer = message_filters.ApproximateTimeSynchronizer(
-            (self.image_sub, self.detections_sub), 10, 0.5
+            (self.image_sub, self.detections_sub), 10, 2.0
         )
         self._synchronizer.registerCallback(self.detections_cb)
 
         super().on_activate(state)
         self.get_logger().info(f"[{self.get_name()}] Activated")
+
+        self.get_logger().info("update successful")
 
         return TransitionCallbackReturn.SUCCESS
 
@@ -336,6 +343,9 @@ class DebugNode(LifecycleNode):
         kp_marker_array = MarkerArray()
 
         detection: Detection
+
+        self.get_logger().info("old Callback triggered. Publishing debug image.")
+
         for detection in detection_msg.detections:
 
             # random color
@@ -371,6 +381,10 @@ class DebugNode(LifecycleNode):
         self._dbg_pub.publish(
             self.cv_bridge.cv2_to_imgmsg(cv_image, encoding="bgr8", header=img_msg.header)
         )
+
+        self.get_logger().info("Callback triggered. Publishing debug image.")
+
+
         self._bb_markers_pub.publish(bb_marker_array)
         self._kp_markers_pub.publish(kp_marker_array)
 
