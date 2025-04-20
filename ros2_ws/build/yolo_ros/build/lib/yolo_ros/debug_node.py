@@ -41,6 +41,9 @@ from yolo_msgs.msg import KeyPoint2D
 from yolo_msgs.msg import KeyPoint3D
 from yolo_msgs.msg import Detection
 from yolo_msgs.msg import DetectionArray
+from geometry_msgs.msg import PointStamped
+from geometry_msgs.msg import Point
+
 
 
 class DebugNode(LifecycleNode):
@@ -70,6 +73,10 @@ class DebugNode(LifecycleNode):
         self._dbg_pub = self.create_publisher(Image, "dbg_image", 10)
         self._bb_markers_pub = self.create_publisher(MarkerArray, "dgb_bb_markers", 10)
         self._kp_markers_pub = self.create_publisher(MarkerArray, "dgb_kp_markers", 10)
+
+        self._cone_centroid_pub = self.create_publisher(Point,   '/detect/cone_centroid',10)
+        self._cone_centroid_marker_pub = self.create_publisher(Marker, "centroid_marker", 10)
+
 
         super().on_configure(state)
         self.get_logger().info(f"[{self.get_name()}] Configured")
@@ -157,6 +164,11 @@ class DebugNode(LifecycleNode):
             round(box_msg.center.position.y + box_msg.size.y / 2.0),
         )
 
+        mid_pt = (
+            (min_pt[0] + max_pt[0]) / 2,
+            (min_pt[1] + max_pt[1]) / 2
+        )
+
         # define the four corners of the rectangle
         rect_pts = np.array(
             [
@@ -191,7 +203,7 @@ class DebugNode(LifecycleNode):
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(cv_image, label, pos, font, 1, color, 1, cv2.LINE_AA)
 
-        return cv_image
+        return cv_image, mid_pt
 
     def draw_mask(
         self,
@@ -271,6 +283,43 @@ class DebugNode(LifecycleNode):
                 )
 
         return cv_image
+
+
+    def create_centroid_point(self, detection: Detection, stamp) -> PointStamped:
+        point_msg = PointStamped()
+        point_msg.header.frame_id = detection.bbox3d.frame_id
+        point_msg.header.stamp = stamp
+        point_msg.point = detection.bbox3d.center.position
+        return point_msg
+    
+    def create_centroid_marker(self, detection: Detection, color: Tuple[int]) -> Marker:
+        center = detection.bbox3d.center.position
+
+        marker = Marker()
+        marker.header.frame_id = detection.bbox3d.frame_id
+        marker.header.stamp = self.get_clock().now().to_msg()
+
+        marker.ns = "centroid"
+        marker.id = 0  # Use a unique ID if multiple markers shown at once
+        marker.type = Marker.SPHERE
+        marker.action = Marker.ADD
+
+        marker.pose.position.x = center.x
+        marker.pose.position.y = center.y
+        marker.pose.position.z = center.z
+        marker.pose.orientation.w = 1.0  # default orientation
+
+        marker.scale.x = 0.05
+        marker.scale.y = 0.05
+        marker.scale.z = 0.05
+
+        marker.color.r = color[0] / 255.0
+        marker.color.g = color[1] / 255.0
+        marker.color.b = color[2] / 255.0
+        marker.color.a = 1.0
+
+        marker.lifetime = Duration(seconds=0.5).to_msg()
+        return marker
 
     def create_bb_marker(self, detection: Detection, color: Tuple[int]) -> Marker:
 
@@ -359,7 +408,7 @@ class DebugNode(LifecycleNode):
 
             color = self._class_to_color[class_name]
 
-            cv_image = self.draw_box(cv_image, detection, color)
+            cv_image, mid_pt = self.draw_box(cv_image, detection, color)
             cv_image = self.draw_mask(cv_image, detection, color)
             cv_image = self.draw_keypoints(cv_image, detection)
 
@@ -377,16 +426,65 @@ class DebugNode(LifecycleNode):
                     marker.id = len(kp_marker_array.markers)
                     kp_marker_array.markers.append(marker)
 
+            # overlay = cv_image.copy()
+            # left midpoint (green)
+            cv2.circle(cv_image,
+                    (int(mid_pt[0]), int(mid_pt[1])),
+                    radius=3,
+                    color=(0,255,0), thickness=-1)
+            
+            self._cone_centroid_pub.publish(Point(x=mid_pt[0], y=mid_pt[1], z=0.0))
+
+
+        # self.overlay_pub.publish(
+        #     self.bridge.cv2_to_imgmsg(overlay, encoding='bgr8')
+        # )
+
+            # publish centroid coordinates
+        # centroid_point = self.create_centroid_point(detection, img_msg.header.stamp)
+        # self._centroid_pub.publish(centroid_point)
+
+        # # publish dbg image
+        # self._dbg_pub.publish(
+        #     self.cv_bridge.cv2_to_imgmsg(cv_image, encoding="bgr8", header=img_msg.header)
+        # )
+
+
         # publish dbg image
         self._dbg_pub.publish(
             self.cv_bridge.cv2_to_imgmsg(cv_image, encoding="bgr8", header=img_msg.header)
         )
 
-        self.get_logger().info("Callback triggered. Publishing debug image.")
 
+        self.get_logger().info("Callback triggered. Publishing debug image.")
 
         self._bb_markers_pub.publish(bb_marker_array)
         self._kp_markers_pub.publish(kp_marker_array)
+
+
+
+        #         # 10) Overlay centroids onto the **original** image
+        # overlay = img.copy()
+        # # left midpoint (green)
+        # cv2.circle(overlay,
+        #            (int(lm_x), bot_y),
+        #            radius=8,
+        #            color=(0,255,0), thickness=-1)
+        # # right midpoint (blue)
+        # cv2.circle(overlay,
+        #            (int(rm_x), bot_y),
+        #            radius=8,
+        #            color=(255,0,0), thickness=-1)
+        # # region centroid (red)
+        # cv2.circle(overlay,
+        #            (int(cx_r), int(cy_r)),
+        #            radius=10,
+        #            color=(0,0,255), thickness=-1)
+
+        # self.overlay_pub.publish(
+        #     self.bridge.cv2_to_imgmsg(overlay, encoding='bgr8')
+        # )
+
 
 
 def main():
