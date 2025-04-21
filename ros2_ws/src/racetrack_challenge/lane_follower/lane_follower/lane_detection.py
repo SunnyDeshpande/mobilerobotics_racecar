@@ -263,9 +263,14 @@ class LaneDetector(Node):
         # Add histogram visualization at the bottom
         hist_height = 100
         hist_img = np.zeros((hist_height, W, 3), dtype=np.uint8)
-        hist_normalized = hist / np.max(hist) * hist_height
+        if np.max(hist) > 0:
+            hist_normalized = hist / np.max(hist) * hist_height
+        else:
+            hist_normalized = np.zeros_like(hist)
         for i, h in enumerate(hist_normalized.astype(int)):
-            cv2.line(hist_img, (i, hist_height), (i, hist_height - h), (255, 255, 255), 1)
+            if not np.isnan(h):
+                cv2.line(hist_img, (i, hist_height), (i, int(hist_height - h)), (255, 255, 255), 1)
+
         # Mark the detected peaks
         cv2.circle(hist_img, (left_base, hist_height - int(hist_normalized[left_base])), 5, (0, 0, 255), -1)
         cv2.circle(hist_img, (right_base, hist_height - int(hist_normalized[right_base])), 5, (255, 0, 0), -1)
