@@ -158,7 +158,7 @@ class LaneDetector(Node):
             left_hist[y_full - bot_y] += total_sum
 
         # --- 3. Right-edge rays ---
-        for y_full in range(bot_y, H_full):
+        for y_full in range(H_full, bot_y, -1):
             y_rel = y_full - bot_y
             start = (width - 1, y_rel)
             end = (vp_x, vp_y_rel)
@@ -172,7 +172,7 @@ class LaneDetector(Node):
 
                 total_sum += np.sum(warped[shifted[:, 1], shifted[:, 0]])
 
-            right_hist[y_full - bot_y] += total_sum
+            right_hist[-(y_full - H_full)] += total_sum
 
         # left_base  = int(np.argmax(hist[:half]))
         # right_base = int(np.argmax(hist[half:]) + half)
@@ -398,19 +398,20 @@ class LaneDetector(Node):
         self.right_mid_pub.publish(Point(x=float(rm_x), y=float(bot_y), z=0.0))
 
         #  8c) Centroid of the filled region between lanes (bottom-half only)
-        pts_left  = np.vstack([left_fitx,  ploty]).T.astype(np.int32)
-        pts_right = np.vstack([right_fitx, ploty]).T.astype(np.int32)
-        poly      = np.vstack((pts_left, pts_right[::-1]))
+        # pts_left  = np.vstack([left_fitx,  ploty]).T.astype(np.int32)
+        # pts_right = np.vstack([right_fitx, ploty]).T.astype(np.int32)
+        # poly      = np.vstack((pts_left, pts_right[::-1]))
 
-        region_mask = np.zeros((H, W), dtype=np.uint8)
-        cv2.fillPoly(region_mask, [poly], 255)
-        ys, xs = np.nonzero(region_mask)
-        if xs.size:
-            cx_r, cy_r = float(xs.mean()), float(ys.mean())
-        else:
-            cx_r, cy_r = float(W/2), float((bot_y+H)/2)
+        # region_mask = np.zeros((H, W), dtype=np.uint8)
+        # cv2.fillPoly(region_mask, [poly], 255)
+        # ys, xs = np.nonzero(region_mask)
+        # if xs.size:
+        #     cx_r, cy_r = float(xs.mean()), float(ys.mean())
+        # else:
+        #     cx_r, cy_r = float(W/2), float((bot_y+H)/2)
 
-        # cx_r = int(lm_x+rm_x)/2
+        cx_r = int(lm_x+rm_x)/2
+        cy_r = float(bot_y)
         
 
         self.region_centroid_pub.publish(Point(x=cx_r, y=cy_r, z=0.0))
@@ -448,9 +449,9 @@ class LaneDetector(Node):
         # Create a colored visualization of the sliding windows
         window_img = np.zeros((H, W, 3), dtype=np.uint8)
 
-        if self.left_fit_prev is not None and self.right_fit_prev is not None:
-            # Draw the lane region polygon
-            cv2.fillPoly(window_img, [poly], (0, 100, 0))  # Dark green for lane area
+        # if self.left_fit_prev is not None and self.right_fit_prev is not None:
+        #     # Draw the lane region polygon
+        #     cv2.fillPoly(window_img, [poly], (0, 100, 0))  # Dark green for lane area
             
         # Draw the sliding windows
         for w in range(nwindows):
@@ -507,54 +508,15 @@ class LaneDetector(Node):
 
         # Add histogram visualization at the bottom
         hist_height = 100
-        hist_img = np.zeros((hist_height, W, 3), dtype=np.uint8)
-        if np.max(hist) > 0:
-            hist_normalized = hist / np.max(hist) * hist_height
+        hist_img = np.zeros((hist_height, W+len(left_hist)+len(right_hist), 3), dtype=np.uint8)
+        if np.max(full_hist) > 0:
+            hist_normalized = full_hist / np.max(full_hist) * hist_height
         else:
-            hist_normalized = np.zeros_like(hist)
+            hist_normalized = np.zeros_like(full_hist)
         for i, h in enumerate(hist_normalized.astype(int)):
             if not np.isnan(h):
                 cv2.line(hist_img, (i, hist_height), (i, int(hist_height - h)), (255, 255, 255), 1)
 
-        # Side histograms
-        # Normalize left and right histograms
-        left_hist_height = H
-        right_hist_height = H
-
-        if np.max(left_hist) > 0:
-            left_hist_norm = left_hist / np.max(left_hist) * 50  # 50px wide bar
-        else:
-            left_hist_norm = np.zeros_like(left_hist)
-
-        if np.max(right_hist) > 0:
-            right_hist_norm = right_hist / np.max(right_hist) * 50
-        else:
-            right_hist_norm = np.zeros_like(right_hist)
-
-        # Create vertical histogram visuals (W=50 pixels)
-        left_hist_img = np.zeros((H, 50, 3), dtype=np.uint8)
-
-        if np.max(left_hist) > 0:
-            left_hist_norm = left_hist / np.max(left_hist) * 50
-        else:
-            left_hist_norm = np.zeros_like(left_hist)
-
-        for i, val in enumerate(left_hist_norm.astype(int)):
-            y = i + bot_y  # map to full image coordinates
-            if 0 <= y < H:
-                cv2.line(left_hist_img, (0, y), (val, y), (255, 255, 255), 1)
-
-        right_hist_img = np.zeros((H, 50, 3), dtype=np.uint8)
-
-        if np.max(right_hist) > 0:
-            right_hist_norm = right_hist / np.max(right_hist) * 50
-        else:
-            right_hist_norm = np.zeros_like(right_hist)
-
-        for i, val in enumerate(right_hist_norm.astype(int)):
-            y = i + bot_y
-            if 0 <= y < H:
-                cv2.line(right_hist_img, (49 - val, y), (49, y), (255, 255, 255), 1)
 
 
         # Mark the detected peaks
@@ -562,15 +524,15 @@ class LaneDetector(Node):
         #cv2.circle(hist_img, (right_base, hist_height - int(hist_normalized[right_base])), 5, (255, 0, 0), -1)
 
         # Combine main image with histogram
-        combined_width = 50 + W + 50  # Left margin + image + right margin
+        combined_width = 54 + W + 54  # Left margin + image + right margin
         combined_height = H + hist_height
         combined_img = np.zeros((combined_height, combined_width, 3), dtype=np.uint8)
 
         # Pad debug_img horizontally to include left/right histograms
-        combined_img[:H, 0:50] = left_hist_img
+        #combined_img[:H, 0:50] = left_hist_img
         combined_img[:H, 50:50+W] = debug_img
-        combined_img[:H, 50+W:] = right_hist_img
-        combined_img[H:, 50:50+W] = hist_img  # Bottom histogram centered under main image
+        #combined_img[:H, 50+W:] = right_hist_img
+        combined_img[H:, :] = hist_img  # Bottom histogram centered under main image
 
 
         # Create a publisher for the debug image
