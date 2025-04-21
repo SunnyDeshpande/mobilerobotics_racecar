@@ -16,7 +16,7 @@ class LaneDetector(Node):
     def __init__(self):
         super().__init__('lane_detection')
         self.get_logger().info('Lane detection node started')
-        self.lane_threshold_val = 150 # 90 if nice and bright (project), 60 if shady (project2_sunny), 150 if indoors bright (indoors)
+        self.lane_threshold_val = 70 # 90 if nice and bright (project), 60 if shady (project2_sunny), 150 if indoors bright (indoors)
         self.bridge = CvBridge()
 
         # Subscribe to the ZED left color rectified image
@@ -30,7 +30,7 @@ class LaneDetector(Node):
         # Numeric publishers
         self.lane_center_pub     = self.create_publisher(Float64, '/detect/lane',                 10)
         self.left_mid_pub        = self.create_publisher(Point,   '/detect/lane_left_midpoint',  10)
-        self.right_mid_pub       = self.create_publisher(Point,   '/detect/lane_right_midpoint', 10)
+        self.right_mid_pub     = self.create_publisher(Point,   '/detect/lane_right_midpoint', 10)
         self.region_centroid_pub = self.create_publisher(Point,   '/detect/lane_region_centroid',10)
 
         # Image publishers
@@ -49,23 +49,25 @@ class LaneDetector(Node):
         # 1) Convert ROS Image → OpenCV BGR
         img = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
         H, W = img.shape[:2]
+        # print("W: " + str(H) + " H: " + str(H))
 
         # 2) Define bottom half ROI
-        bot_y = 2*H // 3
+        bot_y = int(2.1*H // 3)
         roi    = img[bot_y:, :]           # shape = (H/2, W, 3)
 
-        # 2a) Denoise the ROI (colored)
-        roi = cv2.fastNlMeansDenoisingColored(
-        roi,      # input
-        None,     # output; let the function allocate
-        h=1,     # filter strength for luminance
-        hColor=1,# filter strength for color components
-        templateWindowSize=7,
-        searchWindowSize=21
-    )
-        self.denoised_pub.publish(
-            self.bridge.cv2_to_imgmsg(roi, encoding='bgr8')
-        )
+        # # 2a) Denoise the ROI (colored)
+        # roi2 = cv2.fastNlMeansDenoisingColored(
+        # roi,      # input
+        # None,     # output; let the function allocate
+        # h=2,     # filter strength for luminance
+        # hColor=2,# filter strength for color components
+        # templateWindowSize=17,
+        # searchWindowSize=20
+        # )
+
+        # self.denoised_pub.publish(
+        #     self.bridge.cv2_to_imgmsg(roi, encoding='bgr8')
+        # )
 
         # 3) Threshold ROI to get binary mask of white lanes
         gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
@@ -89,7 +91,8 @@ class LaneDetector(Node):
 
         hls = cv2.cvtColor(roi, cv2.COLOR_BGR2HLS)
         lower_white = np.array([0, 90,  0], dtype=np.uint8)
-        upper_white = np.array([180, 255, 60], dtype=np.uint8)
+        upper_white = np.array([180, 255, 80], dtype=np.uint8)
+
         mask_hls = cv2.inRange(hls, lower_white, upper_white)
         
         self.hls_mask_pub.publish(
@@ -190,6 +193,9 @@ class LaneDetector(Node):
             cx_r, cy_r = float(xs.mean()), float(ys.mean())
         else:
             cx_r, cy_r = float(W/2), float((bot_y+H)/2)
+
+        # cx_r = int(lm_x+rm_x)/2
+        
 
         self.region_centroid_pub.publish(Point(x=cx_r, y=cy_r, z=0.0))
 
