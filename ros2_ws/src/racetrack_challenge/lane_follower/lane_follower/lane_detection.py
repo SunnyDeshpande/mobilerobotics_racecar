@@ -79,7 +79,7 @@ class LaneDetector(Node):
         )
 
         hls = cv2.cvtColor(roi, cv2.COLOR_BGR2HLS)
-        lower_white = np.array([0, 60,  0], dtype=np.uint8)
+        lower_white = np.array([0, 90,  0], dtype=np.uint8)
         upper_white = np.array([180, 255, 60], dtype=np.uint8)
         mask_hls = cv2.inRange(hls, lower_white, upper_white)
         
