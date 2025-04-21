@@ -35,6 +35,9 @@ class LaneDetector(Node):
 
         # Image publishers
         self.mask_pub    = self.create_publisher(Image, '/camera/mask_lane_detected', 10)
+        self.denoised_pub = self.create_publisher(Image, '/camera/denoised', 10)
+        self.gray_mask_pub = self.create_publisher(Image, '/camera/grey_mask', 10)
+        self.hls_mask_pub = self.create_publisher(Image, '/camera/hls_mask', 10)
         self.overlay_pub = self.create_publisher(Image, '/camera/centroid_overlay',   10)
 
         # Remember last fit if polyfit fails
@@ -59,16 +62,27 @@ class LaneDetector(Node):
         templateWindowSize=7,
         searchWindowSize=21
     )
+        self.denoised_pub.publish(
+            self.bridge.cv2_to_imgmsg(roi, encoding='bgr8')
+        )
 
         # 3) Threshold ROI to get binary mask of white lanes
         gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
         gray = cv2.medianBlur(gray, 9)
         _, mask_gray = cv2.threshold(gray, self.lane_threshold_val, 255, cv2.THRESH_BINARY) 
 
+        self.gray_mask_pub.publish(
+            self.bridge.cv2_to_imgmsg(mask_gray, encoding='mono8')
+        )
+
         hls = cv2.cvtColor(roi, cv2.COLOR_BGR2HLS)
         lower_white = np.array([0, 60,  0], dtype=np.uint8)
         upper_white = np.array([180, 255, 60], dtype=np.uint8)
         mask_hls = cv2.inRange(hls, lower_white, upper_white)
+        
+        self.hls_mask_pub.publish(
+            self.bridge.cv2_to_imgmsg(mask_hls, encoding='mono8')
+        )
 
         warped = cv2.bitwise_or(mask_gray, mask_hls)  # shape = (H/2, W)
 
