@@ -22,7 +22,7 @@ class LaneDetector(Node):
         # Subscribe to the ZED left color rectified image
         self.create_subscription(
             Image,
-            '/zed/zed_node/rgb/image_rect_color', #rgb for all bags but project2_sunny
+            '/zed/zed_node/rgb/image_rect_color', #rgb for all bags but project2_sunny -> '/zed/zed_node/left/image_rect_color'
             self.image_callback,
             10
         )
@@ -80,7 +80,7 @@ class LaneDetector(Node):
         # Testing adaptive threshold
         mask_gray = cv2.adaptiveThreshold(
             gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
-            cv2.THRESH_BINARY, 51, -50
+            cv2.THRESH_BINARY, 51, -50 #-20 for dark
         )
 
 
@@ -90,7 +90,7 @@ class LaneDetector(Node):
         )
 
         hls = cv2.cvtColor(roi, cv2.COLOR_BGR2HLS)
-        lower_white = np.array([0, 90,  0], dtype=np.uint8)
+        lower_white = np.array([0, 90,  0], dtype=np.uint8) # 0, 40, 0 for dark
         upper_white = np.array([180, 255, 70], dtype=np.uint8)
 
         mask_hls = cv2.inRange(hls, lower_white, upper_white)
