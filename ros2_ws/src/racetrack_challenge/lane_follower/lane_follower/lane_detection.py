@@ -36,6 +36,7 @@ class LaneDetector(Node):
         # Image publishers
         self.mask_pub    = self.create_publisher(Image, '/camera/mask_lane_detected', 10)
         self.denoised_pub = self.create_publisher(Image, '/camera/denoised', 10)
+        self.gray_image_pub = self.create_publisher(Image, '/camera/gray', 10)
         self.gray_mask_pub = self.create_publisher(Image, '/camera/grey_mask', 10)
         self.hls_mask_pub = self.create_publisher(Image, '/camera/hls_mask', 10)
         self.overlay_pub = self.create_publisher(Image, '/camera/centroid_overlay',   10)
@@ -68,7 +69,9 @@ class LaneDetector(Node):
 
         # 3) Threshold ROI to get binary mask of white lanes
         gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
-        gray = cv2.medianBlur(gray, 9)
+        self.gray_image_pub.publish(
+            self.bridge.cv2_to_imgmsg(gray, encoding='mono8')
+        )
         _, mask_gray = cv2.threshold(gray, self.lane_threshold_val, 255, cv2.THRESH_BINARY) 
 
         self.gray_mask_pub.publish(
