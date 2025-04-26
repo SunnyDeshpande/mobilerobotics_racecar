@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000353] (-) JobUnselected: {'identifier': 'car_control'}
-[0.000379] (-) JobUnselected: {'identifier': 'estimation_and_vision_assignment'}
-[0.000396] (-) JobUnselected: {'identifier': 'lane_follower'}
-[0.000411] (-) JobUnselected: {'identifier': 'obj_det_visualizer'}
-[0.000425] (-) JobUnselected: {'identifier': 'yolo_bringup'}
-[0.000438] (-) JobUnselected: {'identifier': 'yolo_msgs'}
-[0.000450] (-) JobUnselected: {'identifier': 'yolo_ros'}
-[0.000605] (-) EventReactorShutdown: {}
