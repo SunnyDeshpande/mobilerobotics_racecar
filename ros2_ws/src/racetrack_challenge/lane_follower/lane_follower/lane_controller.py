@@ -18,7 +18,11 @@ class LaneDetector(Node):
         self.image_size_y = 240.0
         self.dist_scale_factor = 0.5
         self.steer_scale_factor = 0.03
+<<<<<<< Updated upstream
         self.fwd_speed = 0.55
+=======
+        self.fwd_speed = 0.7 #0.3
+>>>>>>> Stashed changes
 
         self.create_subscription(
             Point, 
@@ -51,7 +55,7 @@ class LaneDetector(Node):
         dist_scale = min(1.0, self.dist_scale_factor*dist_from_robot)
         steer_val = -dist_scale * self.steer_scale_factor * err_x
 
-        cmd_vel_msg.angular.z = steer_val
+        cmd_vel_msg.angular.z = steer_val-0.01
         self.cmd_vel_pub.publish(cmd_vel_msg)
         pass
 

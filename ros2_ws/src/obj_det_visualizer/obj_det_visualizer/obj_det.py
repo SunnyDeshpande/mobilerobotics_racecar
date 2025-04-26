@@ -23,9 +23,38 @@ class ObjectSubscriber(Node):
         # Create a publisher for the Float32MultiArray message
         self.publisher = self.create_publisher(Float32MultiArray, '/bounding_box_corners', 10)
 
+    # def listener_callback(self, msg):
+    #     # self.get_logger().info('I heard: "%s"' % msg.header)
+    #     # self.get_logger().info('I heard: "%s"' % msg.objects[0].bounding_box_3d.corners[0].kp)
+
+    #     # Create and initialize the Marker message
+    #     self.marker = Marker()
+    #     self.marker.header.frame_id = "map"  # Coordinate frame
+    #     self.marker.header.stamp = self.get_clock().now().to_msg()
+    #     self.marker.ns = "bounding_box"
+    #     self.marker.id = 0
+    #     self.marker.type = Marker.LINE_LIST
+    #     self.marker.action = Marker.ADD
+    #     self.marker.scale.x = 0.1  # Line width
+    #     self.marker.color.a = 1.0
+    #     self.marker.color.r = 1.0
+    #     self.marker.color.g = 0.0
+    #     self.marker.color.b = 0.0
+
+    #     for box in msg.objects:
+    #         corners = self.find_corners(box)
+
+    #         # Add the points to form the bounding box
+    #         self.add_bounding_box_edges(corners)
+    #         self.publish_bounding_box(corners)
+
     def listener_callback(self, msg):
-        # self.get_logger().info('I heard: "%s"' % msg.header)
-        # self.get_logger().info('I heard: "%s"' % msg.objects[0].bounding_box_3d.corners[0].kp)
+        # Log each detected object's type (label)
+        if not msg.objects:
+            self.get_logger().info("No objects detected.")
+        else:
+            for obj in msg.objects:
+                self.get_logger().info(f"Detected object: {obj.label} (confidence: {obj.confidence:.2f})")
 
         # Create and initialize the Marker message
         self.marker = Marker()
@@ -47,9 +76,12 @@ class ObjectSubscriber(Node):
             # Add the points to form the bounding box
             self.add_bounding_box_edges(corners)
             self.publish_bounding_box(corners)
-            
+
+                
     def publish_bounding_box(self, corners):
         """ Publish the bounding box corners using a user-defined function. """
+
+        
         corners_data = [d for c in corners for d in c]
         
         if len(corners_data) != 24:
@@ -63,6 +95,8 @@ class ObjectSubscriber(Node):
         # Publish the message to the '/bounding_box_corners' topic
         self.publisher.publish(msg)
         # self.get_logger().info(f"Publishing bounding box corners: {msg.data}")
+
+
 
     def add_bounding_box_edges(self, corners):
         # List of the 12 edges of the cuboid (connecting the corners)
@@ -100,7 +134,7 @@ class ObjectSubscriber(Node):
     def publish_marker(self):
         # Publish the marker to RViz
         self.marker_pub.publish(self.marker)
-        self.get_logger().info("Bounding box marker published to RViz.")
+        # self.get_logger().info("Bounding box marker published to RViz.")
 
 
 

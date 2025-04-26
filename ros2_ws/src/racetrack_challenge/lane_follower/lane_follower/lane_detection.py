@@ -35,6 +35,10 @@ class LaneDetector(Node):
 
         # Image publishers
         self.mask_pub    = self.create_publisher(Image, '/camera/mask_lane_detected', 10)
+        self.denoised_pub = self.create_publisher(Image, '/camera/denoised', 10)
+        self.gray_image_pub = self.create_publisher(Image, '/camera/gray', 10)
+        self.gray_mask_pub = self.create_publisher(Image, '/camera/grey_mask', 10)
+        self.hls_mask_pub = self.create_publisher(Image, '/camera/hls_mask', 10)
         self.overlay_pub = self.create_publisher(Image, '/camera/centroid_overlay',   10)
 
         # Remember last fit if polyfit fails
@@ -59,17 +63,41 @@ class LaneDetector(Node):
         # hColor=2,# filter strength for color components
         # templateWindowSize=17,
         # searchWindowSize=20
-    # )
+        # )
+
+        # self.denoised_pub.publish(
+        #     self.bridge.cv2_to_imgmsg(roi, encoding='bgr8')
+        # )
 
         # 3) Threshold ROI to get binary mask of white lanes
         gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
-        gray = cv2.medianBlur(gray, 9)
+        #gray = cv2.medianBlur(gray, 9)
+        self.gray_image_pub.publish(
+            self.bridge.cv2_to_imgmsg(gray, encoding='mono8')
+        )
         _, mask_gray = cv2.threshold(gray, self.lane_threshold_val, 255, cv2.THRESH_BINARY) 
 
+        # Testing adaptive threshold
+        mask_gray = cv2.adaptiveThreshold(
+            gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
+            cv2.THRESH_BINARY, 51, -50
+        )
+
+
+
+        self.gray_mask_pub.publish(
+            self.bridge.cv2_to_imgmsg(mask_gray, encoding='mono8')
+        )
+
         hls = cv2.cvtColor(roi, cv2.COLOR_BGR2HLS)
-        lower_white = np.array([0, 60,  0], dtype=np.uint8)
+        lower_white = np.array([0, 90,  0], dtype=np.uint8)
         upper_white = np.array([180, 255, 80], dtype=np.uint8)
+
         mask_hls = cv2.inRange(hls, lower_white, upper_white)
+        
+        self.hls_mask_pub.publish(
+            self.bridge.cv2_to_imgmsg(mask_hls, encoding='mono8')
+        )
 
         warped = cv2.bitwise_or(mask_gray, mask_hls)  # shape = (H/2, W)
 
@@ -198,6 +226,68 @@ class LaneDetector(Node):
 
         self.overlay_pub.publish(
             self.bridge.cv2_to_imgmsg(overlay, encoding='bgr8')
+        )
+
+        # TEST: Debug windows
+        # Create a colored visualization of the sliding windows
+        window_img = np.zeros((H, W, 3), dtype=np.uint8)
+
+        if self.left_fit_prev is not None and self.right_fit_prev is not None:
+            # Draw the lane region polygon
+            cv2.fillPoly(window_img, [poly], (0, 100, 0))  # Dark green for lane area
+            
+            # Draw the sliding windows
+            for w in range(nwindows):
+                y_low = H - (w+1)*window_h
+                y_high = H - w*window_h
+                
+                # Left lane windows (red)
+                xll, xlh = left_cur - margin, left_cur + margin
+                cv2.rectangle(window_img, (int(xll), int(y_low)), (int(xlh), int(y_high)), (0, 0, 255), 2)
+                
+                # Right lane windows (blue)
+                xrl, xrh = right_cur - margin, right_cur + margin
+                cv2.rectangle(window_img, (int(xrl), int(y_low)), (int(xrh), int(y_high)), (255, 0, 0), 2)
+                
+            # Draw the fitted polynomial lines
+            for x, y in zip(left_fitx.astype(np.int32), ploty.astype(np.int32)):
+                cv2.circle(window_img, (x, y), 2, (255, 255, 0), -1)  # Yellow dots
+            
+            for x, y in zip(right_fitx.astype(np.int32), ploty.astype(np.int32)):
+                cv2.circle(window_img, (x, y), 2, (0, 255, 255), -1)  # Cyan dots
+
+        # Blend with original image for context
+        alpha = 0.7
+        debug_img = cv2.addWeighted(img, alpha, window_img, 1-alpha, 0)
+
+        # Add histogram visualization at the bottom
+        hist_height = 100
+        hist_img = np.zeros((hist_height, W, 3), dtype=np.uint8)
+        if np.max(hist) > 0:
+            hist_normalized = hist / np.max(hist) * hist_height
+        else:
+            hist_normalized = np.zeros_like(hist)
+        for i, h in enumerate(hist_normalized.astype(int)):
+            if not np.isnan(h):
+                cv2.line(hist_img, (i, hist_height), (i, int(hist_height - h)), (255, 255, 255), 1)
+
+        # Mark the detected peaks
+        cv2.circle(hist_img, (left_base, hist_height - int(hist_normalized[left_base])), 5, (0, 0, 255), -1)
+        cv2.circle(hist_img, (right_base, hist_height - int(hist_normalized[right_base])), 5, (255, 0, 0), -1)
+
+        # Combine main image with histogram
+        combined_height = H + hist_height
+        combined_img = np.zeros((combined_height, W, 3), dtype=np.uint8)
+        combined_img[:H, :] = debug_img
+        combined_img[H:, :] = hist_img
+
+        # Create a publisher for the debug image
+        if not hasattr(self, 'window_debug_pub'):
+            self.window_debug_pub = self.create_publisher(Image, '/camera/sliding_windows_debug', 10)
+
+        # Publish the debug image
+        self.window_debug_pub.publish(
+            self.bridge.cv2_to_imgmsg(combined_img, encoding='bgr8')
         )
 
 

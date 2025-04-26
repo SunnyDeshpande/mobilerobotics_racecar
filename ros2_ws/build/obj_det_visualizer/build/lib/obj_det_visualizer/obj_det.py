@@ -50,6 +50,8 @@ class ObjectSubscriber(Node):
             
     def publish_bounding_box(self, corners):
         """ Publish the bounding box corners using a user-defined function. """
+
+        
         corners_data = [d for c in corners for d in c]
         
         if len(corners_data) != 24:
@@ -63,6 +65,8 @@ class ObjectSubscriber(Node):
         # Publish the message to the '/bounding_box_corners' topic
         self.publisher.publish(msg)
         # self.get_logger().info(f"Publishing bounding box corners: {msg.data}")
+
+
 
     def add_bounding_box_edges(self, corners):
         # List of the 12 edges of the cuboid (connecting the corners)

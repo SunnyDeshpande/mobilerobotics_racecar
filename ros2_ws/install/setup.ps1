@@ -23,6 +23,7 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/foxy\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/nvidia/ros2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nvidia/microros_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nvidia/rosbag_ws/install\local_setup.ps1"
 
