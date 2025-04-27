@@ -1,7 +1,71 @@
 # mobilerobotics_racecar
 Race Car for SUTD Mobile Robotics course
 
-## Instructions to run 
+## Instructions to run ROSBags
+
+### 1. ROSBag for Race Track Challenge Task 1: Straight Line Dash
+
+1.1. To run the ROSbag:
+     Open a new terminal/terminator window/tab  
+     run `cd ros2_ws/racetrack_challenge_data/q1`
+
+1.2. To view robot info on RViz:  
+     Open a new terminal/terminator window/tab  
+     run `rviz2 --ros-args -p use_sim_time:=true`
+
+1.3. To publish map -> odom transform:  
+     Open a new terminal/terminator window/tab  
+     run `ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom`
+
+1.4. To publish odom -> base_link transform:
+     Open a new terminal/terminator window/tab  
+     run `ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_link`
+
+1.4. To publish base_link -> zed_camera_center transform:
+     Open a new terminal/terminator window/tab  
+     run `ros2 run tf2_ros static_transform_publisher 0 0 0.1 0 0 0 base_link zed_camera_center`
+
+1.5. Then pan the camera to the location that the odom gives out, you may need to ros2 topic echo and see what xyz position the odom is in, then use the rviz2 camera info the pan towards it.
+
+
+-----------------------------------------
+
+
+### 2. ROSBag for Race Track Challenge Task 2: Object Detection
+
+Depending on which run you want to view, proceed to EITHER subsection "1.1.a." or "1.1.b".
+
+2.1.a. To run the ROSbag for run 1:  
+       Open a new terminal/terminator window/tab  
+       run `cd ros2_ws/racetrack_challenge_data/q2/Run1`
+
+2.1.b. To run the ROSbag for run 2:  
+       Open a new terminal/terminator window/tab  
+       run `cd ros2_ws/racetrack_challenge_data/q2/Run2`
+
+2.2. To view robot info on RViz:  
+     Open a new terminal/terminator window/tab  
+     run `rviz2 --ros-args -p use_sim_time:=true`
+
+2.3. To publish map -> odom transform:  
+     Open a new terminal/terminator window/tab  
+     run `ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom`
+
+2.4. To publish odom -> base_link transform:
+     Open a new terminal/terminator window/tab  
+     run `ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_link`
+
+2.4. To publish base_link -> zed_camera_center transform:
+     Open a new terminal/terminator window/tab  
+     run `ros2 run tf2_ros static_transform_publisher 0 0 0.1 0 0 0 base_link zed_camera_center`
+
+2.5. Then pan the camera to some object with possible label "Vehicle" or "Person", you may need to ros2 topic echo and see what xyz position the odom is in, then use the rviz2 camera info the pan towards it.
+
+
+-----------------------------------------
+
+
+## Instructions to run robot
   
 ### 1. Race Track Challenge Task 1: Straight Line Dash
 
