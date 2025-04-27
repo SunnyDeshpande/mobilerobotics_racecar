@@ -16,7 +16,7 @@ class LaneDetector(Node):
     def __init__(self):
         super().__init__('lane_detection')
         self.get_logger().info('Lane detection node started')
-        self.lane_threshold_val = 70 # 90 if nice and bright (project), 60 if shady (project2_sunny), 150 if indoors bright (indoors)
+        self.lane_threshold_val = 60 # 90 if nice and bright (project), 60 if shady (project2_sunny), 150 if indoors bright (indoors)
         self.bridge = CvBridge()
 
         # Subscribe to the ZED left color rectified image
@@ -52,7 +52,7 @@ class LaneDetector(Node):
         # print("W: " + str(H) + " H: " + str(H))
 
         # 2) Define bottom half ROI
-        bot_y = int(2.1*H // 3)
+        bot_y = int(1.9*H // 3)
         roi    = img[bot_y:, :]           # shape = (H/2, W, 3)
 
         # # 2a) Denoise the ROI (colored)
@@ -75,12 +75,16 @@ class LaneDetector(Node):
         self.gray_image_pub.publish(
             self.bridge.cv2_to_imgmsg(gray, encoding='mono8')
         )
-        _, mask_gray = cv2.threshold(gray, self.lane_threshold_val, 255, cv2.THRESH_BINARY) 
+        #_, mask_gray = cv2.threshold(gray, self.lane_threshold_val, 255, cv2.THRESH_BINARY) 
 
         # Testing adaptive threshold
         mask_gray = cv2.adaptiveThreshold(
             gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
+<<<<<<< Updated upstream
             cv2.THRESH_BINARY, 51, -50 #-20 for dark
+=======
+            cv2.THRESH_BINARY, 51, -10 #-20 for dark
+>>>>>>> Stashed changes
         )
 
 
@@ -90,8 +94,13 @@ class LaneDetector(Node):
         )
 
         hls = cv2.cvtColor(roi, cv2.COLOR_BGR2HLS)
+<<<<<<< Updated upstream
         lower_white = np.array([0, 90,  0], dtype=np.uint8) # 0, 40, 0 for dark
         upper_white = np.array([180, 255, 70], dtype=np.uint8)
+=======
+        lower_white = np.array([0,20,  0], dtype=np.uint8) # 0, 40, 0 for dark
+        upper_white = np.array([180, 255, 90], dtype=np.uint8) # 70 default
+>>>>>>> Stashed changes
 
         mask_hls = cv2.inRange(hls, lower_white, upper_white)
         
@@ -398,20 +407,25 @@ class LaneDetector(Node):
         self.right_mid_pub.publish(Point(x=float(rm_x), y=float(bot_y), z=0.0))
 
         #  8c) Centroid of the filled region between lanes (bottom-half only)
-        # pts_left  = np.vstack([left_fitx,  ploty]).T.astype(np.int32)
-        # pts_right = np.vstack([right_fitx, ploty]).T.astype(np.int32)
-        # poly      = np.vstack((pts_left, pts_right[::-1]))
+        pts_left  = np.vstack([left_fitx,  ploty]).T.astype(np.int32)
+        pts_right = np.vstack([right_fitx, ploty]).T.astype(np.int32)
+        poly      = np.vstack((pts_left, pts_right[::-1]))
 
-        # region_mask = np.zeros((H, W), dtype=np.uint8)
-        # cv2.fillPoly(region_mask, [poly], 255)
-        # ys, xs = np.nonzero(region_mask)
-        # if xs.size:
-        #     cx_r, cy_r = float(xs.mean()), float(ys.mean())
-        # else:
-        #     cx_r, cy_r = float(W/2), float((bot_y+H)/2)
+        region_mask = np.zeros((H, W), dtype=np.uint8)
+        cv2.fillPoly(region_mask, [poly], 255)
+        ys, xs = np.nonzero(region_mask)
+        if xs.size:
+            cx_r, cy_r = float(xs.mean()), float(ys.mean())
+        else:
+            cx_r, cy_r = float(W/2), float((bot_y+H)/2)
+        # if rm_x < W//2:
+        #     rm_x = W * (3/4)
 
-        cx_r = int(lm_x+rm_x)/2
-        cy_r = float(bot_y)
+        # if lm_x > W//2:
+        #     lm_x = W * (1/4)
+
+        # cx_r = (int(lm_x+rm_x)/2)
+        # cy_r = float(bot_y)
         
 
         self.region_centroid_pub.publish(Point(x=cx_r, y=cy_r, z=0.0))

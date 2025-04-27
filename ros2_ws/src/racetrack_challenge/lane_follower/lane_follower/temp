@@ -1,0 +1,4921 @@
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 171409987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 238096987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 304579987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 371449987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 438068987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 504538987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 571437987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 638146987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 704703987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 771422987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 837949987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 904851987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310331
+    nanosec: 971469987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 37980987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 104851987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 171426987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 237981987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 304848987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 371318987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 438187987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 504844987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 571338987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 638195987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 704851987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 771308987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 838279987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 904854987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310332
+    nanosec: 971435987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 38130987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 104707987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 171565987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 238172987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 304546987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 371594987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 471567987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 504729987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 571572987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 638080987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 705000987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 804991987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 838103987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310333
+    nanosec: 938057987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 4935987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 71552987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 138089987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 207542987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 271581987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 340361987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 404953987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 471438987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 538338987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 604987987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 671438987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 738279987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 804955987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 871469987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310334
+    nanosec: 938299987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 4893987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 71677987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 138278987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 204809987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 271657987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 338285987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 404827987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 471756987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 538278987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 604932987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 671701987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 738149987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 805067987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 871663987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310335
+    nanosec: 938188987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 5000987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 71686987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 138168987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 204915987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 271562987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 338413987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 405052987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 471527987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 538410987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 605051987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 671516987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 738419987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 805054987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 871692987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310336
+    nanosec: 938413987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 4953987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 71795987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 138530987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 204952987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 271833987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 338442987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 404947987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 471784987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 538278987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 1>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 605159987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 671788987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 738307987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 805147987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 871791987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310337
+    nanosec: 938284987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 5149987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 71811987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 171828987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 238498987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 305159987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 371625987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 438480987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 505176987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 571659987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 638528987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 705167987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 771645987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 838554987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 905050987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310338
+    nanosec: 971979987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 38510987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 105044987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 171927987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 238546987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 305067987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 371937987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 438550987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 505181987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 571908987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 638386987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 705302987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 771909987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 838367987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 905298987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310339
+    nanosec: 971941987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 38376987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 105264987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 171758987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 238632987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 305236987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 371795987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 438649987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 505276987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 571782987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 638652987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 705289987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 771886987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 838617987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 905130987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310340
+    nanosec: 972003987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 38668987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 105141987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 172115987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 238649987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 305134987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 372180987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 438610987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 538522987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 572015987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 672087987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 705415987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 772002987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 838510987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 905388987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310341
+    nanosec: 972019987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 38516987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 105450987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 171900987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 238755987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 305368987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 371847987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 471905987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 505444987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 605408987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 671897987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 738971987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 805124987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 872125987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 905251987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310342
+    nanosec: 972216987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 72192987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 138725987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 205143987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 272113987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 338776987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 405237987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 472140987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 538674987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 605509987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 672151987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 738707987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 805340987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 872122987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310343
+    nanosec: 938590987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 5375987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 71977987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 138851987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 205388987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 272076987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 338877987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 405326987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 472030987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 538849987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 605387987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 672068987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 738917987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 805361987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 905440987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310344
+    nanosec: 938858987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 6618987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 72204987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 138869987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 205359987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 272208987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 338931987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 405482987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 472236987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 538771987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 605620987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 672977987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 738735987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 805579987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 872196987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310345
+    nanosec: 938729987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 5611987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 72109987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 139070987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 205614987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 272098987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 338951987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 405610987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 472099987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 538963987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 605564987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 672248987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 740441987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 805498987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 872361987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310346
+    nanosec: 938968987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 5451987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 72359987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 138973987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 205460987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 272344987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 338832987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 405722987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 505763987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 572355987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 638828987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 705743987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 738918987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 838806987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 905722987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310347
+    nanosec: 972341987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 39096987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 105749987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 172181987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 239088987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 305731987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 372184987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 439090987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 505739987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 572195987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 639048987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 705584987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 772443987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 839111987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 905609987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310348
+    nanosec: 972493987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 39063987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 105546987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 172530987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 239117987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 305853987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 372516987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 438949987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 505828987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 572436987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 638957987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 705835987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 772465987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 838939987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 905872987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310349
+    nanosec: 972319987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 39183987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 105858987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 172315987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 239202987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 305817987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 372311987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 439181987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 505834987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 572468987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 672613987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 705926987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 772635987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 839249987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 905685987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310350
+    nanosec: 972557987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 39192987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 105725987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 172583987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 239083987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 306005987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 372590987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 439109987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 505972987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 639048987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 672549987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 739074987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 806034987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 872582987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310351
+    nanosec: 939175987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 5965987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 72402987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 139286987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 205933987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 272407987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 339299987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 405966987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 472463987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 539303987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 605889987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 672712987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 739237987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 805797987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 872715987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310352
+    nanosec: 939302987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 5810987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 72667987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 139305987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 205915987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 272728987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 339199987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 406059987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 472687987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 539171987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 606055987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 672673987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 739152987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 806023987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 872563987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310353
+    nanosec: 939419987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 6040987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 72544987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 139426987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 206039987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 272592987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 339428987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 406029987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 472711987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 539432987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 605973987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 673318987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 739402987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 805911987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 872871987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310354
+    nanosec: 939571987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 5928987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 72956987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 174565987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 206156987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 272822987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 339291987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 406158987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 472870987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 572832987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 639286987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 706153987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 739285987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 839417987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 906160987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310355
+    nanosec: 972768987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 39549987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 106164987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 172716987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 239559987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 306167987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 372736987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 439556987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 506027987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 572932987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 639546987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 706012987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 772908987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 839524987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 906046987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310356
+    nanosec: 972906987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 39527987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 106138987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 172934987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 239397987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 306258987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 372904987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 439432987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 506289987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 572940987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 639434987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 706315987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 772837987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 839654987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 906280987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310357
+    nanosec: 972844987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 39648987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 106271987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 172794987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 239674987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 306273987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 372848987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 439706987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 506184987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 573082987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 639654987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 706161987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 772990987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 839639987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 906155987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310358
+    nanosec: 973022987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 39652987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 106290987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 173023987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 239584987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 306440987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 373008987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 439525987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 506398987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 573055987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 639564987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 706377987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 772877987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 839800987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 906406987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310359
+    nanosec: 972904987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 72978987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 139767987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 172892987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 239757987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 306464987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 373188987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 439779987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 506364987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 606310987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 639920987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 739780987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 773162987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 873139987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310360
+    nanosec: 939761987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 6390987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 39837987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 106524987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 206501987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 273169987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 339582987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 406550987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 473132987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 539655987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 606509987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 673145987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 739938987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 806531987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 873076987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310361
+    nanosec: 939914987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 6503987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 73004987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 139859987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 206493987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 273018987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 339998987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 406354987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 473337987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 539868987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 606351987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 673253987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 739857987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 806404987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 873359987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310362
+    nanosec: 939867987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 6512987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 73255987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 139761987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 206673987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 273286987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 339742987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 406615987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 473229987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 539780987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 606626987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 673278987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 740071987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 806660987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 873128987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310363
+    nanosec: 939986987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 6608987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 73115987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 139993987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 240186987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 273232987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 339978987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 406529987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 473379987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 539982987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 606597987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 673370987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 740026987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 806545987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 873366987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310364
+    nanosec: 940010987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 39871987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 106801987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 173489987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 239852987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 306749987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 373362987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 439864987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 473378987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 573362987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 640055987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 706744987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 773162987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 840135987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 906757987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310365
+    nanosec: 973144987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 40161987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 106760987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 173209987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 240116987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 306593987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 373434987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 440084987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 506588987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 573548987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 640161987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 706599987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 773482987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 840183987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 906671987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310366
+    nanosec: 973419987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 39941987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 106934987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 173512987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 240049987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 306863987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 373478987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 439995987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 506846987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 573341987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 640189987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 706862987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 773378987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 840220987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 906859987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310367
+    nanosec: 973348987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 40228987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 106963987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 173526987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 240346987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 306721987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 373701987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 440195987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 506745987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 573592987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 640222987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 706732987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 773599987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 840253987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 906836987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310368
+    nanosec: 973569987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 40080987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 106947987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 173581987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 240125987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 306992987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 373593987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 440090987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 506997987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 573495987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 640520987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 706961987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 773491987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 840277987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 907016987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310369
+    nanosec: 973487987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 40405987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 140346987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 173576987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 273747987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 340341987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 406828987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 473698987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 540361987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 606852987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 673682987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 740343987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 806939987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 873710987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310370
+    nanosec: 940250987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 7058987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 73766987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 140178987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 207098987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 273678987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 340178987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 407052987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 473539987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 540451987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 607067987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 673567987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 773574987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 807090987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 873597987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310371
+    nanosec: 940499987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 7073987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 73586987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 140473987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 206968987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 273817987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 340422987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 406979987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 473853987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 540457987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 606907987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 673873987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 740427987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 807042987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 873822987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310372
+    nanosec: 940360987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 7393987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 73824987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 140285987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 207231987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 273829987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 340310987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 407163987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 473692987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 540550987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 607258987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 673824987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 740776987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 807189987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 873686987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310373
+    nanosec: 940584987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 7230987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 73822987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 140550987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 207056987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 273940987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 340538987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 407034987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 473972987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 540555987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 607059987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 673912987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 740410987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 807322987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 873913987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310374
+    nanosec: 940550987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 40436987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 107327987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 173964987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 240463987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 307283987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 373905987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 407317987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 507288987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 573808987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 640691987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 707294987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 773805987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 840638987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 907376987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310375
+    nanosec: 973750987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 40660987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 107160987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 174007987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 240673987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 307185987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 374040987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 440668987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 507168987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 574051987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 640715987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 707319987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 774046987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 840622987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 907501987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310376
+    nanosec: 974055987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 40512987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 107442987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 174044987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 240550987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 307382987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 373921987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 440797987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 507406987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 573905987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 641001987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 707390987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 773891987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 840861987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 907412987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310377
+    nanosec: 974003987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310378
+    nanosec: 40866987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310378
+    nanosec: 107268987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310378
+    nanosec: 174134987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310378
+    nanosec: 240832987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
+header:
+  stamp:
+    sec: 1745310378
+    nanosec: 307274987
+  frame_id: zed_left_camera_frame
+objects: '<sequence type: zed_interfaces/msg/Object, length: 0>'
+---
