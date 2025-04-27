@@ -17,11 +17,11 @@ Race Car for SUTD Mobile Robotics course
      Open a new terminal/terminator window/tab  
      run `ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom`
 
-1.4. To publish odom -> base_link transform:
+1.4. To publish odom -> base_link transform:  
      Open a new terminal/terminator window/tab  
      run `ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_link`
 
-1.4. To publish base_link -> zed_camera_center transform:
+1.4. To publish base_link -> zed_camera_center transform:  
      Open a new terminal/terminator window/tab  
      run `ros2 run tf2_ros static_transform_publisher 0 0 0.1 0 0 0 base_link zed_camera_center`
 
@@ -51,11 +51,11 @@ Depending on which run you want to view, proceed to EITHER subsection "1.1.a." o
      Open a new terminal/terminator window/tab  
      run `ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom`
 
-2.4. To publish odom -> base_link transform:
+2.4. To publish odom -> base_link transform:  
      Open a new terminal/terminator window/tab  
      run `ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_link`
 
-2.4. To publish base_link -> zed_camera_center transform:
+2.4. To publish base_link -> zed_camera_center transform:  
      Open a new terminal/terminator window/tab  
      run `ros2 run tf2_ros static_transform_publisher 0 0 0.1 0 0 0 base_link zed_camera_center`
 
