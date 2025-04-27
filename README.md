@@ -59,9 +59,9 @@ Make sure robot is at starting pose within the lane and facing the desired 'X' s
 
 2.3. To start Zed2 Camera and its processes:  
      Open a new terminal/terminator window/tab  
-     run `ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zed2`  
+     run `ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zed2`
 
-2.4. To start object tracker and position logger (robot moves once this is run until Zed2's Odom topic records it moving 2.0m in robot's x-direction): 
+2.4. To start object tracker and position logger (robot moves once this is run until Zed2's Odom topic records it moving 2.0m in robot's x-direction):  
      Open a new terminal/terminator window/tab  
      run `cd mobilerobotics_racecar/ros2_ws/src/racetrack_challenge/lane_follower/lane_follower`  
      run `python3 object_tracker.py`
