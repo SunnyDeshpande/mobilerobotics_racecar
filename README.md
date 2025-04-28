@@ -1,6 +1,14 @@
 # mobilerobotics_racecar
 Race Car for SUTD Mobile Robotics course
 
+Group 3 "VROOM VROOM"
+
+Members:
+Deshpande Sunny Nitin 1006336
+Ek Hong Sheng Gerald 1006318
+Tan Hwee Hwa, Jovi 1005996
+
+
 ## Instructions to run ROSBags
 
 ### 1. ROSBag for Race Track Challenge Task 1: Straight Line Dash
