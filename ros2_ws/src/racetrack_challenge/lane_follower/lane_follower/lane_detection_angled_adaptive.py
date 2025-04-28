@@ -46,7 +46,7 @@ class LaneDetector(Node):
         self.right_fit_prev = None
 
         # Parameters for lighting
-        self.target_percentage = 0.1
+        self.target_percentage = 0.08
         self.adaptive_c = -40
         self.adaptive_saturation = 40
 
@@ -126,7 +126,7 @@ class LaneDetector(Node):
             self.bridge.cv2_to_imgmsg(mask_hls, encoding='mono8')
         )
 
-        warped = cv2.bitwise_or(mask_gray, mask_hls)  # shape = (H/2, W)
+        warped = cv2.bitwise_and(mask_gray, mask_hls)  # shape = (H/2, W)
 
         # 4) Histogram over bottom–half ROI
         hist = np.sum(warped, axis=0)
