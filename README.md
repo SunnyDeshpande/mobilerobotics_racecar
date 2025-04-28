@@ -99,6 +99,8 @@ Make sure robot is at starting line within the desired lane in a place with homo
 
 1.6. At this point, the robot will start moving within the lane. Stop it by toggling auto mode to manual or by terminating the lane_controller node.
 
+1.7. (Optional) Adjust the lighting parameters at lines 85, 95 and 96 if the filters are too noisy and too quiet.
+
 
 -----------------------------------------
 
