@@ -46,7 +46,7 @@ class LaneDetector(Node):
         self.right_fit_prev = None
 
         # Parameters for lighting
-        self.target_percentage = 0.07
+        self.target_percentage = 0.1
         self.adaptive_c = -40
         self.adaptive_saturation = 40
 
