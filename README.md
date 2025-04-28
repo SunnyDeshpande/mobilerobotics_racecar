@@ -142,4 +142,8 @@ Make sure robot is at starting pose within the lane and facing the desired 'X' s
 
 ### 3. Project (Round Track Loop)
 
-3.1 Literally the same as section "1. Race Track Challenge Task 1: Straight Line Dash" 
+3.1. Mostly the same as section "1. Race Track Challenge Task 1: Straight Line Dash"
+
+3.2. Instead of launching lane_detection_angled.py, launch lane_detection_angled_adaptive.py
+This code can adapt to differeing brightness, which made the robot movement more stable as required for a longer duration for a lap.
+This code also does a bitwise AND instead of OR to filter out noise from the field grass and outside concrete by the HLS filter.
