@@ -80,11 +80,7 @@ class LaneDetector(Node):
         # Testing adaptive threshold
         mask_gray = cv2.adaptiveThreshold(
             gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
-<<<<<<< Updated upstream
-            cv2.THRESH_BINARY, 51, -50 #-20 for dark
-=======
             cv2.THRESH_BINARY, 51, -10 #-20 for dark
->>>>>>> Stashed changes
         )
 
 
@@ -94,13 +90,8 @@ class LaneDetector(Node):
         )
 
         hls = cv2.cvtColor(roi, cv2.COLOR_BGR2HLS)
-<<<<<<< Updated upstream
-        lower_white = np.array([0, 90,  0], dtype=np.uint8) # 0, 40, 0 for dark
-        upper_white = np.array([180, 255, 70], dtype=np.uint8)
-=======
         lower_white = np.array([0,20,  0], dtype=np.uint8) # 0, 40, 0 for dark
         upper_white = np.array([180, 255, 90], dtype=np.uint8) # 70 default
->>>>>>> Stashed changes
 
         mask_hls = cv2.inRange(hls, lower_white, upper_white)
         

@@ -18,11 +18,7 @@ class LaneDetector(Node):
         self.image_size_y = 240.0
         self.dist_scale_factor = 0.5
         self.steer_scale_factor = 0.03
-<<<<<<< Updated upstream
-        self.fwd_speed = 0.55
-=======
         self.fwd_speed = 0.7 #0.3
->>>>>>> Stashed changes
 
         self.create_subscription(
             Point, 
