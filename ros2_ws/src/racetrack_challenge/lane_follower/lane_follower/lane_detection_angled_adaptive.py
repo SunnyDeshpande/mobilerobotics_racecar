@@ -46,7 +46,7 @@ class LaneDetector(Node):
         self.right_fit_prev = None
 
         # Parameters for lighting
-        self.target_percentage = 0.05
+        self.target_percentage = 0.07
         self.adaptive_c = -40
         self.adaptive_saturation = 40
 
@@ -96,9 +96,9 @@ class LaneDetector(Node):
         white_percentage = white_pixel_count / total_pixels
         print("gray: ", white_percentage, self.adaptive_c)
         if white_percentage < self.target_percentage:  # Too few pixels
-            self.adaptive_c += 2  # Make threshold more aggressive
+            self.adaptive_c += 1  # Make threshold more aggressive
         elif white_percentage > self.target_percentage:  # Too many pixels
-            self.adaptive_c -= 2  # Make threshold less aggressive
+            self.adaptive_c -= 1  # Make threshold less aggressive
 
 
 
@@ -117,10 +117,10 @@ class LaneDetector(Node):
         white_percentage = white_pixel_count / total_pixels
 
         print("hls: ", white_percentage, self.adaptive_saturation)
-        if white_percentage < self.target_percentage:  # Too few pixels
-            self.adaptive_saturation += 2  # Make threshold more aggressive
-        elif white_percentage > self.target_percentage:  # Too many pixels
-            self.adaptive_saturation -= 2  # Make threshold less aggressive
+        if white_percentage < self.target_percentage and self.adaptive_saturation < 255:  # Too few pixels
+            self.adaptive_saturation += 1  # Make threshold more aggressive
+        elif white_percentage > self.target_percentage and self.adaptive_saturation > 0:  # Too many pixels
+            self.adaptive_saturation -= 1  # Make threshold less aggressive
         
         self.hls_mask_pub.publish(
             self.bridge.cv2_to_imgmsg(mask_hls, encoding='mono8')
