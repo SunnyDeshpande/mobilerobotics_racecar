@@ -138,7 +138,7 @@ Make sure robot is at starting pose within the lane and facing the desired 'X' s
 2.4. To start object tracker and position logger (robot moves once this is run until Zed2's Odom topic records it moving 2.0m in robot's x-direction):  
      Open a new terminal/terminator window/tab  
      run `cd mobilerobotics_racecar/ros2_ws/src/racetrack_challenge/lane_follower/lane_follower`  
-     run `python3 object_tracker.py`
+     run `python3 obj_tracker.py`
 
 2.5 Once the robot has stopped, terminate the object_tracker node to retreive the CSV file of detected object positions. A new CSV file with the name is created and updated as the node is run hence it will retain data recorded on that run if it is prematurely terminated.
 
