@@ -27,7 +27,9 @@ find_package(zed_interfaces REQUIRED)
 
 # Install Python executables
 install(PROGRAMS
-lane_follower/lane_detection.py
+lane_follower/lane_detection_angled.py
+lane_follower/lane_controller.py
+lane_follower/obj_tracker.py
 
 DESTINATION lib/${PROJECT_NAME}
 )
