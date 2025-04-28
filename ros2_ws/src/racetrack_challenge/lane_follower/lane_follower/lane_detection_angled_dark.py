@@ -82,7 +82,7 @@ class LaneDetector(Node):
         # Testing adaptive threshold
         mask_gray = cv2.adaptiveThreshold(
             gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
-            cv2.THRESH_BINARY, 51, -20 #-20 for dark, -40 for not dark
+            cv2.THRESH_BINARY, 51, -30 #-20 for dark, -40 for not dark
         )
 
 
@@ -442,6 +442,8 @@ class LaneDetector(Node):
                    (int(cx_r), int(cy_r)),
                    radius=10,
                    color=(0,0,255), thickness=-1)
+
+        print([int(cx_r), int(cy_r), W, H])
 
         self.overlay_pub.publish(
             self.bridge.cv2_to_imgmsg(overlay, encoding='bgr8')
