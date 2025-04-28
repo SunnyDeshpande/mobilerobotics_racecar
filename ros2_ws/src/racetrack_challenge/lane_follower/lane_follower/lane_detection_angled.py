@@ -93,7 +93,7 @@ class LaneDetector(Node):
 
         hls = cv2.cvtColor(roi, cv2.COLOR_BGR2HLS)
         lower_white = np.array([0, 70,  0], dtype=np.uint8) # 0, 40, 0 for dark
-        upper_white = np.array([180, 255, 70], dtype=np.uint8)
+        upper_white = np.array([180, 255, 70], dtype=np.uint8) # Adjust saturation for dark too, higher upper bound = more pixels masked
 
         mask_hls = cv2.inRange(hls, lower_white, upper_white)
         
