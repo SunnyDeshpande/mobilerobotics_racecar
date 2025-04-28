@@ -14,8 +14,8 @@ class LaneDetector(Node):
     def __init__(self):
         super().__init__('lane_controller')
         self.get_logger().info('Lane controller node started')
-        self.image_size_x = 320.0
-        self.image_size_y = 240.0
+        self.image_size_x = 160.0 #320.0
+        self.image_size_y = 120.0 #240.0
         self.dist_scale_factor = 0.5
         self.steer_scale_factor = 0.03
         self.fwd_speed = 0.7 #0.3
