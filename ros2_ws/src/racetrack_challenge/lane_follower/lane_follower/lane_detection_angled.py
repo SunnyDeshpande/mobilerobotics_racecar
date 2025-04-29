@@ -400,9 +400,9 @@ class LaneDetector(Node):
         self.right_mid_pub.publish(Point(x=float(rm_x), y=float(bot_y), z=0.0))
 
         #  8c) Centroid of the filled region between lanes (bottom-half only)
-        # pts_left  = np.vstack([left_fitx,  ploty]).T.astype(np.int32)
-        # pts_right = np.vstack([right_fitx, ploty]).T.astype(np.int32)
-        # poly      = np.vstack((pts_left, pts_right[::-1]))
+        pts_left  = np.vstack([left_fitx,  ploty]).T.astype(np.int32)
+        pts_right = np.vstack([right_fitx, ploty]).T.astype(np.int32)
+        poly      = np.vstack((pts_left, pts_right[::-1]))
 
         # region_mask = np.zeros((H, W), dtype=np.uint8)
         # cv2.fillPoly(region_mask, [poly], 255)
@@ -449,53 +449,53 @@ class LaneDetector(Node):
 
         # TEST: Debug windows
         # Create a colored visualization of the sliding windows
-        # window_img = np.zeros((H, W, 3), dtype=np.uint8)
+        window_img = np.zeros((H, W, 3), dtype=np.uint8)
 
-        # # if self.left_fit_prev is not None and self.right_fit_prev is not None:
-        # #     # Draw the lane region polygon
-        # #     cv2.fillPoly(window_img, [poly], (0, 100, 0))  # Dark green for lane area
+        if self.left_fit_prev is not None and self.right_fit_prev is not None:
+            # Draw the lane region polygon
+            cv2.fillPoly(window_img, [poly], (0, 100, 0))  # Dark green for lane area
             
         # # Draw the sliding windows
-        # for w in range(nwindows):
-        #     # --- LEFT lane ---
-        #     if from_side_left:
-        #         y_center = bot_y + np.argmax(left_hist)
-        #         x_start = w * (W // nwindows)
-        #         x_end   = (w + 1) * ((W/2) // nwindows)
-        #         y_low   = y_center - margin
-        #         y_high  = y_center + margin
-        #         cv2.rectangle(window_img, (int(x_start), int(y_low)), (int(x_end), int(y_high)), (128, 0, 128), 2)  # purple
-        #     else:
-        #         y_low  = H - (w + 1) * window_h
-        #         y_high = H - w * window_h
-        #         xll, xlh = left_cur - margin, left_cur + margin
-        #         cv2.rectangle(window_img, (int(xll), int(y_low)), (int(xlh), int(y_high)), (0, 0, 255), 2)  # red
+        for w in range(nwindows):
+            # --- LEFT lane ---
+            if from_side_left:
+                y_center = bot_y + np.argmax(left_hist)
+                x_start = w * (W // nwindows)
+                x_end   = (w + 1) * ((W/2) // nwindows)
+                y_low   = y_center - margin
+                y_high  = y_center + margin
+                cv2.rectangle(window_img, (int(x_start), int(y_low)), (int(x_end), int(y_high)), (128, 0, 128), 2)  # purple
+            else:
+                y_low  = H - (w + 1) * window_h
+                y_high = H - w * window_h
+                xll, xlh = left_cur - margin, left_cur + margin
+                cv2.rectangle(window_img, (int(xll), int(y_low)), (int(xlh), int(y_high)), (0, 0, 255), 2)  # red
 
-        #     # --- RIGHT lane ---
-        #     if from_side_right:
-        #         y_center = bot_y + np.argmax(right_hist)
-        #         x_start = W - (w + 1) * (W // nwindows)
-        #         x_end   = W - w * ((W/2) // nwindows)
-        #         y_low   = y_center - margin
-        #         y_high  = y_center + margin
-        #         cv2.rectangle(window_img, (int(x_start), int(y_low)), (int(x_end), int(y_high)), (0, 165, 255), 2)  # orange
-        #     else:
-        #         y_low  = H - (w + 1) * window_h
-        #         y_high = H - w * window_h
-        #         xrl, xrh = right_cur - margin, right_cur + margin
-        #         cv2.rectangle(window_img, (int(xrl), int(y_low)), (int(xrh), int(y_high)), (255, 0, 0), 2)  # blue
+            # --- RIGHT lane ---
+            if from_side_right:
+                y_center = bot_y + np.argmax(right_hist)
+                x_start = W - (w + 1) * (W // nwindows)
+                x_end   = W - w * ((W/2) // nwindows)
+                y_low   = y_center - margin
+                y_high  = y_center + margin
+                cv2.rectangle(window_img, (int(x_start), int(y_low)), (int(x_end), int(y_high)), (0, 165, 255), 2)  # orange
+            else:
+                y_low  = H - (w + 1) * window_h
+                y_high = H - w * window_h
+                xrl, xrh = right_cur - margin, right_cur + margin
+                cv2.rectangle(window_img, (int(xrl), int(y_low)), (int(xrh), int(y_high)), (255, 0, 0), 2)  # blue
 
                 
-        #     # Draw the fitted polynomial lines
-        #     for x, y in zip(left_fitx.astype(np.int32), ploty.astype(np.int32)):
-        #         cv2.circle(window_img, (x, y), 2, (255, 255, 0), -1)  # Yellow dots
+            # Draw the fitted polynomial lines
+            for x, y in zip(left_fitx.astype(np.int32), ploty.astype(np.int32)):
+                cv2.circle(window_img, (x, y), 2, (255, 255, 0), -1)  # Yellow dots
             
-        #     for x, y in zip(right_fitx.astype(np.int32), ploty.astype(np.int32)):
-        #         cv2.circle(window_img, (x, y), 2, (0, 255, 255), -1)  # Cyan dots
+            for x, y in zip(right_fitx.astype(np.int32), ploty.astype(np.int32)):
+                cv2.circle(window_img, (x, y), 2, (0, 255, 255), -1)  # Cyan dots
 
         # # Blend with original image for context
-        # alpha = 0.7
-        # debug_img = cv2.addWeighted(img, alpha, window_img, 1-alpha, 0)
+        alpha = 0.7
+        debug_img = cv2.addWeighted(img, alpha, window_img, 1-alpha, 0)
         # for base_x, color in [(left_base, (0, 255, 0)), (right_base, (255, 0, 0))]:  # green, blue
         #     line = np.linspace((base_x, H-1), (vp_x, vp_y), num=warped.shape[0], dtype=np.int32)
 
@@ -509,42 +509,42 @@ class LaneDetector(Node):
 
 
         # # Add histogram visualization at the bottom
-        # hist_height = 100
-        # hist_img = np.zeros((hist_height, W+len(left_hist)+len(right_hist), 3), dtype=np.uint8)
-        # if np.max(full_hist) > 0:
-        #     hist_normalized = full_hist / np.max(full_hist) * hist_height
-        # else:
-        #     hist_normalized = np.zeros_like(full_hist)
-        # for i, h in enumerate(hist_normalized.astype(int)):
-        #     if not np.isnan(h):
-        #         cv2.line(hist_img, (i, hist_height), (i, int(hist_height - h)), (255, 255, 255), 1)
+        hist_height = 100
+        hist_img = np.zeros((hist_height, W+len(left_hist)+len(right_hist), 3), dtype=np.uint8)
+        if np.max(full_hist) > 0:
+            hist_normalized = full_hist / np.max(full_hist) * hist_height
+        else:
+            hist_normalized = np.zeros_like(full_hist)
+        for i, h in enumerate(hist_normalized.astype(int)):
+            if not np.isnan(h):
+                cv2.line(hist_img, (i, hist_height), (i, int(hist_height - h)), (255, 255, 255), 1)
 
 
 
         # # Mark the detected peaks
-        # #cv2.circle(hist_img, (left_base, hist_height - int(hist_normalized[left_base])), 5, (0, 0, 255), -1)
-        # #cv2.circle(hist_img, (right_base, hist_height - int(hist_normalized[right_base])), 5, (255, 0, 0), -1)
+        #cv2.circle(hist_img, (left_base, hist_height - int(hist_normalized[left_base])), 5, (0, 0, 255), -1)
+        #cv2.circle(hist_img, (right_base, hist_height - int(hist_normalized[right_base])), 5, (255, 0, 0), -1)
 
         # # Combine main image with histogram
-        # combined_width = 54 + W + 54  # Left margin + image + right margin
-        # combined_height = H + hist_height
-        # combined_img = np.zeros((combined_height, combined_width, 3), dtype=np.uint8)
+        combined_width = W+len(left_hist)+len(right_hist)  # Left margin + image + right margin
+        combined_height = H + hist_height
+        combined_img = np.zeros((combined_height, combined_width, 3), dtype=np.uint8)
 
         # # Pad debug_img horizontally to include left/right histograms
-        # #combined_img[:H, 0:50] = left_hist_img
-        # combined_img[:H, 50:50+W] = debug_img
-        # #combined_img[:H, 50+W:] = right_hist_img
-        # combined_img[H:, :] = hist_img  # Bottom histogram centered under main image
+        #combined_img[:H, 0:50] = left_hist_img
+        combined_img[:H, 50:50+W] = debug_img
+        #combined_img[:H, 50+W:] = right_hist_img
+        combined_img[H:, :] = hist_img  # Bottom histogram centered under main image
 
 
         # # Create a publisher for the debug image
-        # if not hasattr(self, 'window_debug_pub'):
-        #     self.window_debug_pub = self.create_publisher(Image, '/camera/sliding_windows_debug', 10)
+        if not hasattr(self, 'window_debug_pub'):
+            self.window_debug_pub = self.create_publisher(Image, '/camera/sliding_windows_debug', 10)
 
         # # Publish the debug image
-        # self.window_debug_pub.publish(
-        #     self.bridge.cv2_to_imgmsg(combined_img, encoding='bgr8')
-        # )
+        self.window_debug_pub.publish(
+            self.bridge.cv2_to_imgmsg(combined_img, encoding='bgr8')
+        )
 
 
 def main(args=None):
